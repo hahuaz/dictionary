@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { getUrlForWord, searchPopulated, searchWords, SITE_URL } from "@/lib";
-import { LETTER_BUCKETS } from "@shared/types";
+import { LETTER_BUCKETS } from "../../../shared/types";
 
 export const dynamic = "force-static";
 

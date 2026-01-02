@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "85d9e802-d33e-40d6-b840-fd8e54a36caa",
+		"name": "dictionary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25262425"
+	},
+	"item": [
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "word",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5555/api/word?word=about",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"word"
+							],
+							"query": [
+								{
+									"key": "word",
+									"value": "about"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "word",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"word\": \"pleasure\",\r\n    \"definitions\": [\r\n      {\r\n        \"definition\": \"A feeling of happiness, satisfaction, or enjoyment\",\r\n        \"partOfSpeech\": \"noun\",\r\n        \"sentences\": [\"It was a pleasure to meet you.\"]\r\n      },\r\n      {\r\n        \"definition\": \"Something that gives delight or enjoyment\",\r\n        \"partOfSpeech\": \"noun\",\r\n        \"sentences\": [\"Reading is one of her greatest pleasures.\"]\r\n      }\r\n    ]\r\n  }\r\n]\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/word",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"word"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "word",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"word\": \"age\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/word",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"word"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "words-from-sentence",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5555/api/words-from-sentence?sentId=1eeef866-f3be-43f3-a938-42fec147c315",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"words-from-sentence"
+							],
+							"query": [
+								{
+									"key": "sentId",
+									"value": "1eeef866-f3be-43f3-a938-42fec147c315"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://4hxzbp29s3.execute-api.us-east-1.amazonaws.com/prod/search?prefix=ab",
+					"protocol": "https",
+					"host": [
+						"4hxzbp29s3",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"search"
+					],
+					"query": [
+						{
+							"key": "prefix",
+							"value": "ab"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "word",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5555/api/word?word=about",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"api",
+						"word"
+					],
+					"query": [
+						{
+							"key": "word",
+							"value": "about"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
