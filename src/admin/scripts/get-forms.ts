@@ -1,104 +1,38 @@
-import {
-  PATH_ALL_WORDS,
-  PATH_PENDING_WORDS,
-  PATH_NEW_WORDS,
-  LOCAL_SAVE_DIR,
-} from "@/lib";
-
-import fs, { readdir, unlink } from "fs/promises";
-import { PATH_WORDS_FOR_PROMPT } from "../../lib/constants";
-import { CreateWord } from "@shared/types";
-import { join } from "path";
-
+import { PATH_WORDS, PATH_WORD_FORMS } from "@/lib";
+import fs, { unlink } from "fs/promises";
 import { GoogleGenAI } from "@google/genai";
 
-// To run this code you need to install the following dependencies:
-// npm install @google/genai mime
-// npm install -D @types/node
+// --- Configuration ---
+const OUTPUT_FILE = PATH_WORD_FORMS;
+const MAX_RETRIES = 3;
+const OLLAMA_API_URL = "http://172.17.16.1:11434/api/generate";
 
-async function gemini({ prompt, word }) {
-  const ai = new GoogleGenAI({
-    apiKey: process.env.GOOGLE_FREE_GENERATIVE_LANGUAGE_KEY,
-  });
-  const config = {
-    thinkingConfig: {
-      thinkingBudget: -1,
-    },
-  };
-  const model = "gemini-2.5-pro";
-  // const model = "gemma-3-27b-it";
-  const contents = [
-    {
-      role: "user",
-      parts: [
-        {
-          text: prompt,
-        },
-      ],
-    },
-  ];
+const MODELS = {
+  DEEPSEEK: "deepseek-v3.1:671b-cloud",
+  GEMINI: "gemini-2.5-pro",
+};
 
-  const response = await ai.models.generateContentStream({
-    model,
-    config,
-    contents,
-  });
-  let fileIndex = 0;
-  // for await (const chunk of response) {
-  //   console.log(chunk.text);
-  // }
-  // write to locale dir
-  let fullResponse = "";
-  for await (const chunk of response) {
-    fullResponse += chunk.text;
-  }
-  return fullResponse;
+const SELECTED_MODELS = [MODELS.DEEPSEEK];
+
+// --- Types ---
+interface WordForms {
+  word: string;
+  plural: string | null;
+  comparative: string | null;
+  superlative: string | null;
+  present_participle: string | null;
+  past_tense: string | null;
+  past_participle: string | null;
 }
 
-async function executeScript() {
-  // hit ollama api on port 11434 to say "hello"
-  const availableModes = {
-    _1: "gemma3:4b",
-    _2: "gemma3:27b",
-    _3: "gpt-oss:20b", // this doesn't work with format and returns thinking
-    _4: "deepseek-v3.1:671b-cloud",
-    _5: "gpt-oss:120b-cloud",
-    _6: "qwen3-vl:235b-cloud",
-    _7: "gemini-2.5-pro",
-  };
-
-  const wordsForPrompt = await fs.readFile(PATH_WORDS_FOR_PROMPT, "utf-8");
-  const wordsForPromptArray = JSON.parse(wordsForPrompt);
-
-  const selectedModels = [
-    availableModes._4,
-    // availableModes._5,
-    // availableModes._7,
-  ];
-
-  try {
-    // clean up model directories
-    for (const curModel of selectedModels) {
-      const directoryPath = LOCAL_SAVE_DIR + "/forms/" + curModel;
-      const files = await readdir(directoryPath);
-
-      const deletePromises = files.map((file) =>
-        unlink(join(directoryPath, file))
-      );
-
-      await Promise.all(deletePromises);
-    }
-  } catch (error) {}
-
-  for (const word of wordsForPromptArray) {
-    const prompt = `For the word “${word}”, return a JSON object that includes, when applicable, its plural, comparative, superlative, present_participle, past_tense, and past_participle forms.
-     The JSON should be structured as below.
+function generatePrompt(word: string): string {
+  return `For the word “${word}”, return a JSON object that includes, when applicable, its plural, comparative, superlative, present_participle, past_tense, and past_participle forms.
+The JSON should be structured as below.
 - if prop is not applicable for the word, return null
 - if word can't be noun, return null for plural
 - directly return the JSON object without any extra text
 
 Example output:
----
 {
   "word": "light",
   "plural": "lights",
@@ -109,103 +43,157 @@ Example output:
   "past_participle": "lit"
 }
 `;
-    console.log("word", word);
+}
 
-    let maxTry = 3;
+// --- API Helpers ---
 
-    for (const curModel of selectedModels) {
-      let tryCount = 0;
-      let success = false;
+/**
+ * Calls Gemini API with "Thinking" configuration if applicable.
+ */
+async function callGemini(prompt: string): Promise<string> {
+  const ai = new GoogleGenAI({
+    apiKey: process.env.GOOGLE_FREE_GENERATIVE_LANGUAGE_KEY!,
+  });
 
-      while (tryCount < maxTry && !success) {
-        try {
-          let data: any;
+  // Replicating the user's specific streaming logic and config
+  const config = {
+    thinkingConfig: {
+      thinkingBudget: -1,
+    },
+  };
 
-          if (curModel === availableModes._7) {
-            // wait 1 min
-            await new Promise((r) => setTimeout(r, 1000 * 60));
-            console.log("gemini start");
-            data = await gemini({ prompt, word });
-          } else {
-            console.log(curModel, "start");
-            const response = await fetch(
-              "http://172.17.16.1:11434/api/generate",
-              {
-                method: "POST",
-                body: JSON.stringify({
-                  model: curModel,
-                  prompt,
-                  // format: {
-                  //   type: "array",
-                  //   items: {
-                  //     type: "object",
-                  //     properties: {
-                  //       definition: { type: "string" },
-                  //       part_of_speech: { type: "string" },
-                  //       sentence: { type: "string" },
-                  //     },
-                  //     required: ["definition", "part_of_speech", "sentence"],
-                  //   },
-                  // },
-                  format: "json",
-                  stream: false,
-                }),
-              }
-            );
-            data = await response.json();
-            data = data.response ?? data;
-          }
+  const response = await ai.models.generateContentStream({
+    model: MODELS.GEMINI,
+    config,
+    contents: [{ role: "user", parts: [{ text: prompt }] }],
+  });
 
-          // if data consist of ```json or ``` remove them
-          data = String(data)
-            .replace(/```json/g, "")
-            .replace(/```/g, "")
-            // replace undefined
-            .replace(/undefined/g, "")
-            .trim();
+  let fullResponse = "";
+  for await (const chunk of response) {
+    fullResponse += chunk.text;
+  }
+  return fullResponse;
+}
 
-          const output = JSON.parse(data);
+/**
+ * Calls local Ollama API.
+ */
+async function callOllama(model: string, prompt: string): Promise<string> {
+  const response = await fetch(OLLAMA_API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      model,
+      prompt,
+      format: "json",
+      stream: false,
+    }),
+  });
 
-          // create model directory if not exists
-          const modelDir = LOCAL_SAVE_DIR + "/forms/" + curModel;
-          try {
-            await fs.access(modelDir);
-          } catch (error) {
-            await fs.mkdir(modelDir, { recursive: true });
-          }
+  if (!response.ok) {
+    throw new Error(`Ollama error: ${response.statusText}`);
+  }
 
-          // append to index file of curModel
-          const filePath =
-            LOCAL_SAVE_DIR + "/forms/" + curModel + "/" + "index.json";
-          let existingData: any[] = [];
-          try {
-            const fileContent = await fs.readFile(filePath, "utf-8");
-            existingData = JSON.parse(fileContent);
-          } catch (error) {
-            existingData = [];
-          }
-          existingData.push(output);
-          await fs.writeFile(filePath, JSON.stringify(existingData, null, 2));
+  const data: any = await response.json();
+  return data.response ?? data;
+}
 
-          success = true;
-          console.log("Saved word:", word, "model:", curModel);
-        } catch (error) {
-          console.log("err", error);
-          tryCount++;
-          if (tryCount >= maxTry) {
-            console.log(
-              "Max retries reached for word:",
-              word,
-              "model:",
-              curModel
-            );
-          } else {
-            // tiny backoff without changing much
-            await new Promise((r) => setTimeout(r, 200 * tryCount));
-          }
-        }
+/**
+ * Cleans the AI response and parses it as JSON.
+ */
+function parseAiResponse(data: string | object): WordForms {
+  const text = typeof data === "string" ? data : JSON.stringify(data);
+  const cleaned = text
+    .replace(/```json/g, "")
+    .replace(/```/g, "")
+    .replace(/undefined/g, "")
+    .trim();
+
+  return JSON.parse(cleaned);
+}
+
+// --- Persistence Helpers ---
+
+async function saveResult(result: WordForms) {
+  let data: WordForms[] = [];
+  try {
+    const content = await fs.readFile(OUTPUT_FILE, "utf-8");
+    data = JSON.parse(content);
+  } catch {
+    // File doesn't exist yet
+  }
+
+  data.push(result);
+  await fs.writeFile(OUTPUT_FILE, JSON.stringify(data, null, 2));
+}
+
+// --- Orchestration ---
+
+async function processWord(word: string, model: string): Promise<void> {
+  const prompt = generatePrompt(word);
+  let attempts = 0;
+
+  while (attempts < MAX_RETRIES) {
+    try {
+      console.log(`[${model}] Processing: "${word}" (Attempt ${attempts + 1})`);
+
+      let rawData: string;
+      if (model === MODELS.GEMINI) {
+        // Carry over the 1-minute delay for Gemini if it's rate-limited
+        await new Promise((r) => setTimeout(r, 60000));
+        rawData = await callGemini(prompt);
+      } else {
+        rawData = await callOllama(model, prompt);
+      }
+
+      const forms = parseAiResponse(rawData);
+      await saveResult(forms);
+
+      console.log(`[${model}] Success: "${word}"`);
+      return;
+    } catch (error) {
+      attempts++;
+      console.error(
+        `[${model}] Error for "${word}":`,
+        error instanceof Error ? error.message : error
+      );
+
+      if (attempts < MAX_RETRIES) {
+        const delay = 1000 * attempts;
+        await new Promise((r) => setTimeout(r, delay));
       }
     }
   }
+  console.error(`[${model}] MAX RETRIES REACHED for "${word}"`);
 }
-executeScript();
+
+async function main() {
+  console.log("--- Starting Word Forms Extraction ---");
+
+  // Initial cleanup
+  try {
+    await unlink(OUTPUT_FILE);
+  } catch {}
+
+  // Load words
+  let words: string[];
+  try {
+    const rawWords = await fs.readFile(PATH_WORDS, "utf-8");
+    words = JSON.parse(rawWords);
+  } catch (error) {
+    console.error("Could not load words from prompt file.");
+    return;
+  }
+
+  console.log(`Processing ${words.length} words`);
+
+  for (const word of words) {
+    for (const model of SELECTED_MODELS) {
+      await processWord(word, model);
+    }
+  }
+
+  console.log("--- Extraction Complete ---");
+}
+
+main().catch(console.error);

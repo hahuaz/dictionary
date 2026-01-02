@@ -10,12 +10,38 @@
 			"name": "admin",
 			"item": [
 				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5555/api/search-populated?prefix=ab",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"search-populated"
+							],
+							"query": [
+								{
+									"key": "prefix",
+									"value": "ab"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "word",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5555/api/word?word=about",
+							"raw": "http://localhost:5555/api/word?word=absences",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -28,7 +54,7 @@
 							"query": [
 								{
 									"key": "word",
-									"value": "about"
+									"value": "absences"
 								}
 							]
 						}
@@ -42,7 +68,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n  {\r\n    \"word\": \"pleasure\",\r\n    \"definitions\": [\r\n      {\r\n        \"definition\": \"A feeling of happiness, satisfaction, or enjoyment\",\r\n        \"partOfSpeech\": \"noun\",\r\n        \"sentences\": [\"It was a pleasure to meet you.\"]\r\n      },\r\n      {\r\n        \"definition\": \"Something that gives delight or enjoyment\",\r\n        \"partOfSpeech\": \"noun\",\r\n        \"sentences\": [\"Reading is one of her greatest pleasures.\"]\r\n      }\r\n    ]\r\n  }\r\n]\r\n",
+							"raw": "[\r\n  {\r\n    \"word\": \"zebra\",\r\n    \"definitions\": [\r\n      {\r\n        \"definition\": \"An African wild mammal with a black-and-white striped coat, a long neck, and a mane\",\r\n        \"partOfSpeech\": \"noun\",\r\n        \"sentences\": [\"We saw a herd of zebra grazing on the savanna.\"]\r\n      },\r\n      {\r\n        \"definition\": \"A pattern of alternating black and white stripes, resembling that of a zebra\",\r\n        \"partOfSpeech\": \"noun\",\r\n        \"sentences\": [\r\n          \"The pedestrian crossing was painted with a bold zebra pattern.\"\r\n        ]\r\n      }\r\n    ]\r\n  }\r\n]\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -65,13 +91,13 @@
 					"response": []
 				},
 				{
-					"name": "word",
+					"name": "add-forms",
 					"request": {
-						"method": "DELETE",
+						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"word\": \"age\"\r\n}",
+							"raw": "[\r\n  {\r\n    \"word\": \"respectfully\",\r\n    \"plural\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"advertisement\",\r\n    \"plural\": \"advertisements\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"approximately\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"collaborative\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"configuration\",\r\n    \"plural\": \"configurations\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"documentation\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"environmental\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"international\",\r\n    \"plural\": \"internationals\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"procrastinate\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": \"procrastinating\",\r\n    \"past_tense\": \"procrastinated\",\r\n    \"past_participle\": \"procrastinated\"\r\n  },\r\n  {\r\n    \"word\": \"qualification\",\r\n    \"plural\": \"qualifications\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"spontaneously\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"vulnerability\",\r\n    \"plural\": \"vulnerabilities\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"accomplishment\",\r\n    \"plural\": \"accomplishments\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"administration\",\r\n    \"plural\": \"administrations\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"responsibility\",\r\n    \"plural\": \"responsibilities\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"simultaneously\",\r\n    \"plural\": null,\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  },\r\n  {\r\n    \"word\": \"procrastination\",\r\n    \"plural\": \"procrastinations\",\r\n    \"comparative\": null,\r\n    \"superlative\": null,\r\n    \"present_participle\": null,\r\n    \"past_tense\": null,\r\n    \"past_participle\": null\r\n  }\r\n]",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -79,7 +105,36 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5555/api/word",
+							"raw": "http://localhost:5555/api/add-forms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"add-forms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "word",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/word?word=adding",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -88,6 +143,67 @@
 							"path": [
 								"api",
 								"word"
+							],
+							"query": [
+								{
+									"key": "word",
+									"value": "adding"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sentence",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/sentence?sentId=f895ed9b-36d0-4491-8cbc-cdd087cf7361",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"sentence"
+							],
+							"query": [
+								{
+									"key": "sentId",
+									"value": "f895ed9b-36d0-4491-8cbc-cdd087cf7361"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ping",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5555/api/ping",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"ping"
 							]
 						}
 					},
@@ -102,7 +218,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5555/api/words-from-sentence?sentId=1eeef866-f3be-43f3-a938-42fec147c315",
+							"raw": "http://localhost:5555/api/words-from-sentence?sentId=f895ed9b-36d0-4491-8cbc-cdd087cf7361",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -115,8 +231,127 @@
 							"query": [
 								{
 									"key": "sentId",
-									"value": "1eeef866-f3be-43f3-a938-42fec147c315"
+									"value": "f895ed9b-36d0-4491-8cbc-cdd087cf7361"
 								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/find-first-multi-word-sentence",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5555/api/find-first-multi-word-sentence",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"find-first-multi-word-sentence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-sentences-to-word",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n  \"word\": \"delete\",\r\n  \"defId\": \"1\", \r\n  \"sentences\": [\r\n    \"Delete the outdated documents to create more storage space.\"\r\n  ]\r\n }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/add-sentences-to-word",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"add-sentences-to-word"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add-def-to-word",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n  \"word\": \"dog\",\r\n                 \"definition\": \"to follow somebody closely\",\r\n        \"partOfSpeech\": \"verb\",\r\n        \"sentences\": [\r\n          \"She had the impression that someone was dogging her steps.\"\r\n        ]\r\n }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/add-def-to-word",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"add-def-to-word"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "word-to-sentence",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"word\": \"people\",\r\n    \"defId\": \"0\",\r\n    \"sentId\": \"1eeef866-f3be-43f3-a938-42fec147c315\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5555/api/word-to-sentence",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5555",
+							"path": [
+								"api",
+								"word-to-sentence"
 							]
 						}
 					},
@@ -130,7 +365,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://4hxzbp29s3.execute-api.us-east-1.amazonaws.com/prod/search?prefix=ab",
+					"raw": "https://4hxzbp29s3.execute-api.us-east-1.amazonaws.com/prod/search?prefix=a",
 					"protocol": "https",
 					"host": [
 						"4hxzbp29s3",
@@ -146,33 +381,7 @@
 					"query": [
 						{
 							"key": "prefix",
-							"value": "ab"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "word",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:5555/api/word?word=about",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "5555",
-					"path": [
-						"api",
-						"word"
-					],
-					"query": [
-						{
-							"key": "word",
-							"value": "about"
+							"value": "a"
 						}
 					]
 				}

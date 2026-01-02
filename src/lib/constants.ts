@@ -1,6 +1,11 @@
 import path from "path";
 
-export const LOCAL_SAVE_DIR = path.join(process.cwd(), "local-save");
+export const LOCAL_SAVE_DIR = path.join(
+  process.cwd(),
+  "src",
+  "admin",
+  "local-save"
+);
 
 // D:\assets\dictionary\words
 export const LOCAL_MNT_DICTIONARY = path.join("D:\\assets\\dictionary\\words");
@@ -15,16 +20,23 @@ export const PATH_SORTED_SENTENCES = path.join(
 );
 
 // words
-// all words already exist in db
-export const PATH_ALL_WORDS = path.join(LOCAL_SAVE_DIR, "all_words.json");
-// new words extracted from various sources to be added to all words
-export const PATH_NEW_WORDS = path.join(LOCAL_SAVE_DIR, "new_words.json");
-// pending words is the difference between new words and all words
-export const PATH_PENDING_WORDS = path.join(
+// Words that are already present in the database
+export const PATH_EXISTING_WORDS = path.join(
   LOCAL_SAVE_DIR,
-  "pending_words.json"
+  "words_existing.json"
 );
-export const PATH_WORDS_FOR_PROMPT = path.join(
+
+// Raw list of words harvested from external sources that need processing. This list differs from 'pending' as it has not yet been checked against existing words to remove duplicates.
+export const PATH_UNFILTERED_WORDS = path.join(
   LOCAL_SAVE_DIR,
-  "words_for_prompt.json"
+  "words_unfiltered.json"
 );
+
+// Words that are confirmed to be new (filtered). These are the words ready to be added to the database.
+export const PATH_FILTERED_WORDS = path.join(
+  LOCAL_SAVE_DIR,
+  "words_filtered.json"
+);
+
+export const PATH_WORDS = path.join(LOCAL_SAVE_DIR, "words.json");
+export const PATH_WORD_FORMS = path.join(LOCAL_SAVE_DIR, "word_forms.json");

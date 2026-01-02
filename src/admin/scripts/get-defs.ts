@@ -1,12 +1,12 @@
 import {
-  PATH_ALL_WORDS,
-  PATH_PENDING_WORDS,
-  PATH_NEW_WORDS,
+  PATH_EXISTING_WORDS,
+  PATH_FILTERED_WORDS,
+  PATH_CANDIDATE_WORDS,
   LOCAL_SAVE_DIR,
 } from "@/lib";
 
 import fs, { readdir, unlink } from "fs/promises";
-import { PATH_WORDS_FOR_PROMPT } from "../../lib/constants";
+import { PATH_WORDS } from "../../lib/constants";
 import { CreateWord } from "@shared/types";
 import { dirname, join } from "path";
 
@@ -146,7 +146,7 @@ async function executeScript() {
     _7: "gemini-2.5-pro",
   };
 
-  const wordsForPrompt = await fs.readFile(PATH_WORDS_FOR_PROMPT, "utf-8");
+  const wordsForPrompt = await fs.readFile(PATH_WORDS, "utf-8");
   const wordsForPromptArray = JSON.parse(wordsForPrompt);
 
   const selectedModels = [

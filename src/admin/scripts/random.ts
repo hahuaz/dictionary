@@ -2,15 +2,19 @@ import fs from "fs/promises";
 import { dirname } from "path";
 
 import { LOCAL_SAVE_DIR } from "@/lib";
-import { PATH_ALL_WORDS, PATH_NEW_WORDS, PATH_PENDING_WORDS } from "@/lib";
+import {
+  PATH_EXISTING_WORDS,
+  PATH_CANDIDATE_WORDS,
+  PATH_FILTERED_WORDS,
+} from "@/lib";
 async function createDifferenceFile() {
   try {
     // Read and parse the first JSON file
-    const file1Content = await fs.readFile(PATH_ALL_WORDS, "utf-8");
+    const file1Content = await fs.readFile(PATH_EXISTING_WORDS, "utf-8");
     const file1Words: string[] = JSON.parse(file1Content);
 
     // Read and parse the second JSON file
-    const file2Content = await fs.readFile(PATH_NEW_WORDS, "utf-8");
+    const file2Content = await fs.readFile(PATH_CANDIDATE_WORDS, "utf-8");
     const file2Words: string[] = JSON.parse(file2Content);
 
     // Create a Set from file1 for faster lookup
@@ -21,7 +25,7 @@ async function createDifferenceFile() {
 
     // Write the result to a third JSON file
     await fs.writeFile(
-      PATH_PENDING_WORDS,
+      PATH_FILTERED_WORDS,
       JSON.stringify(differenceWords, null, 2)
     );
 

@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 import * as path from "path";
 import inquirer from "inquirer";
 
-const envPath = path.join(__dirname, "../../.env");
+const envPath = path.join(__dirname, "../../../.env");
 console.log("Loading env from", envPath);
 
 dotenv.config({ path: envPath });
@@ -25,6 +25,8 @@ dotenv.config({ path: envPath });
 
 // run();
 
-import("./word-card");
+// import("./word-card");
 
 // import("./antonym");
+
+import("./get-forms");
