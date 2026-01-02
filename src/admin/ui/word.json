@@ -1,0 +1,15 @@
+{
+  "word": "balloon",
+  "highlights": ["balloons"],
+  "definitions": [
+    {
+      "definition": "a flexible bag that can be inflated with air or gas, often used for decoration or entertainment",
+      "partOfSpeech": "noun",
+      "sentences": [
+        {
+          "sentence": "Hundreds of balloons floated into the sky during the festival."
+        }
+      ]
+    }
+  ]
+}

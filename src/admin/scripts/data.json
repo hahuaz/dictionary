@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "coy",
+    "score": 47038,
+    "tags": ["f:0.780218"]
+  },
+  {
+    "word": "set",
+    "score": 39108,
+    "tags": ["f:252.662112"]
+  },
+  {
+    "word": "nox",
+    "score": 34028,
+    "tags": ["f:0.617799"]
+  },
+  {
+    "word": "tap",
+    "score": 33075,
+    "tags": ["f:6.522295"]
+  },
+  {
+    "word": "ass",
+    "score": 33055,
+    "tags": ["f:7.312511"]
+  },
+  {
+    "word": "dim",
+    "score": 33049,
+    "tags": ["f:6.619995"]
+  },
+  {
+    "word": "sad",
+    "score": 32055,
+    "tags": ["f:16.697201"]
+  },
+  {
+    "word": "gay",
+    "score": 32052,
+    "tags": ["f:17.528519"]
+  },
+  {
+    "word": "rue",
+    "score": 30052,
+    "tags": ["f:3.888748"]
+  },
+  {
+    "word": "fit",
+    "score": 28063,
+    "tags": ["f:40.804743"]
+  },
+  {
+    "word": "see",
+    "score": 28057,
+    "tags": ["f:781.909629"]
+  },
+  {
+    "word": "run",
+    "score": 27083,
+    "tags": ["f:96.445553"]
+  },
+  {
+    "word": "cod",
+    "score": 27072,
+    "tags": ["f:3.410512"]
+  },
+  {
+    "word": "rag",
+    "score": 27054,
+    "tags": ["f:2.326991"]
+  },
+  {
+    "word": "gag",
+    "score": 27045,
+    "tags": ["f:1.410837"]
+  },
+  {
+    "word": "ace",
+    "score": 26078,
+    "tags": ["f:3.800696"]
+  },
+  {
+    "word": "apt",
+    "score": 26059,
+    "tags": ["f:7.674721"]
+  },
+  {
+    "word": "din",
+    "score": 26058,
+    "tags": ["f:4.498547"]
+  },
+  {
+    "word": "cry",
+    "score": 26046,
+    "tags": ["f:20.621965"]
+  },
+  {
+    "word": "die",
+    "score": 25073,
+    "tags": ["f:95.130541"]
+  },
+  {
+    "word": "raw",
+    "score": 25057,
+    "tags": ["f:21.679439"]
+  },
+  {
+    "word": "cad",
+    "score": 24086,
+    "tags": ["f:2.650085"]
+  },
+  {
+    "word": "aim",
+    "score": 24055,
+    "tags": ["f:25.930999"]
+  },
+  {
+    "word": "old",
+    "score": 24051,
+    "tags": ["f:298.550312"]
+  },
+  {
+    "word": "coo",
+    "score": 24050,
+    "tags": ["f:0.640187"]
+  },
+  {
+    "word": "ail",
+    "score": 24047,
+    "tags": ["f:0.991065"]
+  },
+  {
+    "word": "cat",
+    "score": 23082,
+    "tags": ["f:19.584482"]
+  },
+  {
+    "word": "can",
+    "score": 23069,
+    "tags": ["f:41.209884"]
+  },
+  {
+    "word": "act",
+    "score": 22074,
+    "tags": ["f:155.783116"]
+  },
+  {
+    "word": "sly",
+    "score": 22042,
+    "tags": ["f:1.679137"]
+  },
+  {
+    "word": "vim",
+    "score": 22042,
+    "tags": ["f:0.400503"]
+  },
+  {
+    "word": "air",
+    "score": 21081,
+    "tags": ["f:148.553832"]
+  },
+  {
+    "word": "rip",
+    "score": 20072,
+    "tags": ["f:2.414642"]
+  },
+  {
+    "word": "sap",
+    "score": 20068,
+    "tags": ["f:2.840867"]
+  },
+  {
+    "word": "top",
+    "score": 19076,
+    "tags": ["f:94.308230"]
+  },
+  {
+    "word": "sex",
+    "score": 19066,
+    "tags": ["f:61.496934"]
+  },
+  {
+    "word": "den",
+    "score": 19050,
+    "tags": ["f:16.892291"]
+  },
+  {
+    "word": "ash",
+    "score": 18070,
+    "tags": ["f:7.453275"]
+  },
+  {
+    "word": "fog",
+    "score": 18066,
+    "tags": ["f:5.689828"]
+  },
+  {
+    "word": "don",
+    "score": 18053,
+    "tags": ["f:19.598613"]
+  },
+  {
+    "word": "nip",
+    "score": 18052,
+    "tags": ["f:0.682293"]
+  },
+  {
+    "word": "cur",
+    "score": 18047,
+    "tags": ["f:0.745942"]
+  },
+  {
+    "word": "dig",
+    "score": 17055,
+    "tags": ["f:5.980541"]
+  },
+  {
+    "word": "rut",
+    "score": 17046,
+    "tags": ["f:0.717588"]
+  },
+  {
+    "word": "gaf",
+    "score": 17011,
+    "tags": ["f:0.088816"]
+  },
+  {
+    "word": "ram",
+    "score": 16090,
+    "tags": ["f:7.586769"]
+  },
+  {
+    "word": "arc",
+    "score": 16083,
+    "tags": ["f:14.557432"]
+  },
+  {
+    "word": "red",
+    "score": 16068,
+    "tags": ["f:99.240438"]
+  },
+  {
+    "word": "rap",
+    "score": 16065,
+    "tags": ["f:1.992675"]
+  },
+  {
+    "word": "pat",
+    "score": 16061,
+    "tags": ["f:8.116338"]
+  },
+  {
+    "word": "aid",
+    "score": 16058,
+    "tags": ["f:52.623840"]
+  },
+  {
+    "word": "awe",
+    "score": 16043,
+    "tags": ["f:4.367463"]
+  },
+  {
+    "word": "foe",
+    "score": 16042,
+    "tags": ["f:3.219905"]
+  },
+  {
+    "word": "sop",
+    "score": 15057,
+    "tags": ["f:0.577866"]
+  },
+  {
+    "word": "new",
+    "score": 15054,
+    "tags": ["f:981.890836"]
+  },
+  {
+    "word": "pit",
+    "score": 14093,
+    "tags": ["f:8.875900"]
+  },
+  {
+    "word": "net",
+    "score": 14088,
+    "tags": ["f:38.009050"]
+  },
+  {
+    "word": "dam",
+    "score": 14074,
+    "tags": ["f:8.105013"]
+  },
+  {
+    "word": "dog",
+    "score": 14073,
+    "tags": ["f:32.513575"]
+  },
+  {
+    "word": "eye",
+    "score": 14072,
+    "tags": ["f:63.847629"]
+  },
+  {
+    "word": "pap",
+    "score": 14064,
+    "tags": ["f:2.133490"]
+  },
+  {
+    "word": "sol",
+    "score": 14057,
+    "tags": ["f:3.417338"]
+  },
+  {
+    "word": "get",
+    "score": 14055,
+    "tags": ["f:292.357018"]
+  },
+  {
+    "word": "ape",
+    "score": 14054,
+    "tags": ["f:2.124433"]
+  },
+  {
+    "word": "nix",
+    "score": 14044,
+    "tags": ["f:0.262604"]
+  },
+  {
+    "word": "cut",
+    "score": 13088,
+    "tags": ["f:82.367078"]
+  },
+  {
+    "word": "gap",
+    "score": 13077,
+    "tags": ["f:21.793311"]
+  },
+  {
+    "word": "art",
+    "score": 13067,
+    "tags": ["f:123.839301"]
+  },
+  {
+    "word": "one",
+    "score": 13052,
+    "tags": ["f:1709.119485"]
+  },
+  {
+    "word": "cot",
+    "score": 13047,
+    "tags": ["f:1.842001"]
+  },
+  {
+    "word": "vex",
+    "score": 13041,
+    "tags": ["f:0.316522"]
+  },
+  {
+    "word": "eff",
+    "score": 13038,
+    "tags": ["f:0.312134"]
+  },
+  {
+    "word": "pan",
+    "score": 12089,
+    "tags": ["f:15.592878"]
+  },
+  {
+    "word": "dip",
+    "score": 12080,
+    "tags": ["f:4.332303"]
+  },
+  {
+    "word": "tip",
+    "score": 12079,
+    "tags": ["f:17.986225"]
+  },
+  {
+    "word": "rib",
+    "score": 12069,
+    "tags": ["f:3.487115"]
+  },
+  {
+    "word": "dry",
+    "score": 12068,
+    "tags": ["f:44.494437"]
+  },
+  {
+    "word": "fob",
+    "score": 12065,
+    "tags": ["f:0.778506"]
+  },
+  {
+    "word": "fan",
+    "score": 12065,
+    "tags": ["f:9.189822"]
+  },
+  {
+    "word": "put",
+    "score": 12065,
+    "tags": ["f:190.310330"]
+  },
+  {
+    "word": "all",
+    "score": 12064,
+    "tags": ["f:996.935133"]
+  },
+  {
+    "word": "ask",
+    "score": 12062,
+    "tags": ["f:87.398124"]
+  },
+  {
+    "word": "esp",
+    "score": 12058,
+    "tags": ["f:5.063602"]
+  },
+  {
+    "word": "rat",
+    "score": 12058,
+    "tags": ["f:18.627935"]
+  },
+  {
+    "word": "eve",
+    "score": 12055,
+    "tags": ["f:10.618738"]
+  },
+  {
+    "word": "and",
+    "score": 12054,
+    "tags": ["f:1122.503704"]
+  },
+  {
+    "word": "nod",
+    "score": 12051,
+    "tags": ["f:3.452212"]
+  },
+  {
+    "word": "ego",
+    "score": 12050,
+    "tags": ["f:13.693903"]
+  },
+  {
+    "word": "toy",
+    "score": 12050,
+    "tags": ["f:4.964721"]
+  },
+  {
+    "word": "dab",
+    "score": 12049,
+    "tags": ["f:1.450001"]
+  },
+  {
+    "word": "err",
+    "score": 12048,
+    "tags": ["f:1.459177"]
+  },
+  {
+    "word": "ebb",
+    "score": 12047,
+    "tags": ["f:1.528447"]
+  },
+  {
+    "word": "shy",
+    "score": 12047,
+    "tags": ["f:5.595541"]
+  },
+  {
+    "word": "nil",
+    "score": 12046,
+    "tags": ["f:2.395223"]
+  },
+  {
+    "word": "pos",
+    "score": 12044,
+    "tags": ["f:1.100641"]
+  },
+  {
+    "word": "tit",
+    "score": 12044,
+    "tags": ["f:1.781471"]
+  },
+  {
+    "word": "fay",
+    "score": 12035,
+    "tags": ["f:1.563176"]
+  },
+  {
+    "word": "fey",
+    "score": 12035,
+    "tags": ["f:0.245159"]
+  },
+  {
+    "word": "aah",
+    "score": 12022,
+    "tags": ["f:0.106302"]
+  },
+  {
+    "word": "cap",
+    "score": 11114,
+    "tags": ["f:14.456609"]
+  },
+  {
+    "word": "fat",
+    "score": 11087,
+    "tags": ["f:29.675867"]
+  },
+  {
+    "word": "pad",
+    "score": 11076,
+    "tags": ["f:5.332073"]
+  },
+  {
+    "word": "atm",
+    "score": 11069,
+    "tags": ["f:2.855411"]
+  },
+  {
+    "word": "out",
+    "score": 11067,
+    "tags": ["f:385.225525"]
+  },
+  {
+    "word": "nut",
+    "score": 11066,
+    "tags": ["f:4.201746"]
+  },
+  {
+    "word": "end",
+    "score": 11060,
+    "tags": ["f:258.251680"]
+  },
+  {
+    "word": "gem",
+    "score": 11060,
+    "tags": ["f:1.888803"]
+  },
+  {
+    "word": "ply",
+    "score": 11059,
+    "tags": ["f:1.188593"]
+  },
+  {
+    "word": "cue",
+    "score": 11055,
+    "tags": ["f:3.868103"]
+  },
+  {
+    "word": "era",
+    "score": 11050,
+    "tags": ["f:27.868052"]
+  },
+  {
+    "word": "odd",
+    "score": 11050,
+    "tags": ["f:15.057125"]
+  },
+  {
+    "word": "sob",
+    "score": 11048,
+    "tags": ["f:1.297479"]
+  },
+  {
+    "word": "fug",
+    "score": 11029,
+    "tags": ["f:0.056617"]
+  },
+  {
+    "word": "srs",
+    "score": 11019,
+    "tags": ["f:0.545988"]
+  },
+  {
+    "word": "pot",
+    "score": 10081,
+    "tags": ["f:11.752181"]
+  },
+  {
+    "word": "tag",
+    "score": 10075,
+    "tags": ["f:6.351976"]
+  },
+  {
+    "word": "fly",
+    "score": 10061,
+    "tags": ["f:19.411273"]
+  },
+  {
+    "word": "pro",
+    "score": 10061,
+    "tags": ["f:20.694672"]
+  },
+  {
+    "word": "ant",
+    "score": 10059,
+    "tags": ["f:3.712851"]
+  },
+  {
+    "word": "dub",
+    "score": 10058,
+    "tags": ["f:0.517860"]
+  },
+  {
+    "word": "rim",
+    "score": 10058,
+    "tags": ["f:7.004047"]
+  },
+  {
+    "word": "row",
+    "score": 10058,
+    "tags": ["f:26.967868"]
+  },
+  {
+    "word": "god",
+    "score": 10057,
+    "tags": ["f:240.150654"]
+  },
+  {
+    "word": "est",
+    "score": 10056,
+    "tags": ["f:14.486005"]
+  },
+  {
+    "word": "con",
+    "score": 10055,
+    "tags": ["f:13.944437"]
+  },
+  {
+    "word": "ode",
+    "score": 10055,
+    "tags": ["f:1.945539"]
+  },
+  {
+    "word": "pet",
+    "score": 10055,
+    "tags": ["f:7.758492"]
+  },
+  {
+    "word": "tug",
+    "score": 10048,
+    "tags": ["f:1.984640"]
+  },
+  {
+    "word": "sot",
+    "score": 10036,
+    "tags": ["f:0.510483"]
+  },
+  {
+    "word": "emo",
+    "score": 10026,
+    "tags": ["f:0.158063"]
+  },
+  {
+    "word": "poo",
+    "score": 10025,
+    "tags": ["f:0.313902"]
+  },
+  {
+    "word": "peg",
+    "score": 9070,
+    "tags": ["f:2.625445"]
+  },
+  {
+    "word": "fix",
+    "score": 9069,
+    "tags": ["f:10.685266"]
+  },
+  {
+    "word": "not",
+    "score": 9058,
+    "tags": ["f:325.893476"]
+  },
+  {
+    "word": "due",
+    "score": 9052,
+    "tags": ["f:127.412930"]
+  },
+  {
+    "word": "tom",
+    "score": 9052,
+    "tags": ["f:24.488356"]
+  },
+  {
+    "word": "try",
+    "score": 9052,
+    "tags": ["f:83.117099"]
+  },
+  {
+    "word": "gob",
+    "score": 9051,
+    "tags": ["f:0.195316"]
+  },
+  {
+    "word": "sir",
+    "score": 9051,
+    "tags": ["f:74.928066"]
+  },
+  {
+    "word": "ado",
+    "score": 9046,
+    "tags": ["f:1.255505"]
+  },
+  {
+    "word": "did",
+    "score": 9046,
+    "tags": ["f:178.524971"]
+  },
+  {
+    "word": "neo",
+    "score": 9046,
+    "tags": ["f:6.916424"]
+  },
+  {
+    "word": "paw",
+    "score": 9044,
+    "tags": ["f:1.455407"]
+  },
+  {
+    "word": "fop",
+    "score": 9039,
+    "tags": ["f:0.246178"]
+  },
+  {
+    "word": "pry",
+    "score": 9039,
+    "tags": ["f:0.872357"]
+  },
+  {
+    "word": "vow",
+    "score": 9039,
+    "tags": ["f:2.720493"]
+  },
+  {
+    "word": "taw",
+    "score": 9036,
+    "tags": ["f:0.173388"]
+  },
+  {
+    "word": "tut",
+    "score": 9034,
+    "tags": ["f:0.603576"]
+  },
+  {
+    "word": "ese",
+    "score": 9033,
+    "tags": ["f:0.475961"]
+  },
+  {
+    "word": "eek",
+    "score": 9033,
+    "tags": ["f:0.089990"]
+  },
+  {
+    "word": "awk",
+    "score": 9024,
+    "tags": ["f:0.129804"]
+  },
+  {
+    "word": "eme",
+    "score": 9023,
+    "tags": ["f:0.104688"]
+  },
+  {
+    "word": "dio",
+    "score": 9012,
+    "tags": ["f:0.944905"]
+  },
+  {
+    "word": "eef",
+    "score": 9009,
+    "tags": ["f:0.053509"]
+  },
+  {
+    "word": "tin",
+    "score": 8080,
+    "tags": ["f:10.198915"]
+  },
+  {
+    "word": "sic",
+    "score": 8073,
+    "tags": ["f:5.348713"]
+  },
+  {
+    "word": "pop",
+    "score": 8073,
+    "tags": ["f:9.296980"]
+  },
+  {
+    "word": "tar",
+    "score": 8073,
+    "tags": ["f:3.305276"]
+  },
+  {
+    "word": "egg",
+    "score": 8072,
+    "tags": ["f:14.082474"]
+  },
+  {
+    "word": "tea",
+    "score": 8069,
+    "tags": ["f:22.524357"]
+  },
+  {
+    "word": "ray",
+    "score": 8065,
+    "tags": ["f:27.624875"]
+  },
+  {
+    "word": "doe",
+    "score": 8063,
+    "tags": ["f:2.992568"]
+  },
+  {
+    "word": "tab",
+    "score": 8062,
+    "tags": ["f:6.027228"]
+  },
+  {
+    "word": "sam",
+    "score": 8061,
+    "tags": ["f:17.900675"]
+  },
+  {
+    "word": "rub",
+    "score": 8055,
+    "tags": ["f:3.441288"]
+  },
+  {
+    "word": "ark",
+    "score": 8054,
+    "tags": ["f:2.436103"]
+  },
+  {
+    "word": "cow",
+    "score": 8053,
+    "tags": ["f:8.452557"]
+  },
+  {
+    "word": "sow",
+    "score": 8053,
+    "tags": ["f:2.203870"]
+  },
+  {
+    "word": "guy",
+    "score": 8047,
+    "tags": ["f:20.149854"]
+  },
+  {
+    "word": "gee",
+    "score": 8045,
+    "tags": ["f:1.648647"]
+  },
+  {
+    "word": "dag",
+    "score": 8044,
+    "tags": ["f:0.717576"]
+  },
+  {
+    "word": "sou",
+    "score": 8041,
+    "tags": ["f:0.589861"]
+  },
+  {
+    "word": "eon",
+    "score": 8040,
+    "tags": ["f:0.303742"]
+  },
+  {
+    "word": "ert",
+    "score": 8028,
+    "tags": ["f:0.223532"]
+  },
+  {
+    "word": "els",
+    "score": 8018,
+    "tags": ["f:0.435631"]
+  },
+  {
+    "word": "eep",
+    "score": 8011,
+    "tags": ["f:0.078447"]
+  },
+  {
+    "word": "pin",
+    "score": 7084,
+    "tags": ["f:9.649419"]
+  },
+  {
+    "word": "arm",
+    "score": 7080,
+    "tags": ["f:43.093656"]
+  },
+  {
+    "word": "ear",
+    "score": 7075,
+    "tags": ["f:23.811466"]
+  },
+  {
+    "word": "cup",
+    "score": 7072,
+    "tags": ["f:21.427561"]
+  },
+  {
+    "word": "oil",
+    "score": 7071,
+    "tags": ["f:73.184625"]
+  },
+  {
+    "word": "age",
+    "score": 7069,
+    "tags": ["f:176.260238"]
+  },
+  {
+    "word": "pen",
+    "score": 7066,
+    "tags": ["f:12.114848"]
+  },
+  {
+    "word": "pip",
+    "score": 7064,
+    "tags": ["f:0.970786"]
+  },
+  {
+    "word": "sun",
+    "score": 7063,
+    "tags": ["f:61.777745"]
+  },
+  {
+    "word": "gum",
+    "score": 7062,
+    "tags": ["f:3.828765"]
+  },
+  {
+    "word": "cob",
+    "score": 7060,
+    "tags": ["f:0.593131"]
+  },
+  {
+    "word": "fox",
+    "score": 7060,
+    "tags": ["f:12.085435"]
+  },
+  {
+    "word": "pig",
+    "score": 7059,
+    "tags": ["f:9.116600"]
+  },
+  {
+    "word": "col",
+    "score": 7058,
+    "tags": ["f:5.103229"]
+  },
+  {
+    "word": "fin",
+    "score": 7058,
+    "tags": ["f:4.894868"]
+  },
+  {
+    "word": "dun",
+    "score": 7057,
+    "tags": ["f:1.263199"]
+  },
+  {
+    "word": "are",
+    "score": 7056,
+    "tags": ["f:1982.889722"]
+  },
+  {
+    "word": "add",
+    "score": 7056,
+    "tags": ["f:60.600140"]
+  },
+  {
+    "word": "amp",
+    "score": 7055,
+    "tags": ["f:3.003611"]
+  },
+  {
+    "word": "gin",
+    "score": 7054,
+    "tags": ["f:2.353070"]
+  },
+  {
+    "word": "saw",
+    "score": 7054,
+    "tags": ["f:139.850955"]
+  },
+  {
+    "word": "aft",
+    "score": 7054,
+    "tags": ["f:2.182643"]
+  },
+  {
+    "word": "ana",
+    "score": 7054,
+    "tags": ["f:3.257891"]
+  },
+  {
+    "word": "gad",
+    "score": 7054,
+    "tags": ["f:0.797775"]
+  },
+  {
+    "word": "gun",
+    "score": 7054,
+    "tags": ["f:23.428195"]
+  },
+  {
+    "word": "rum",
+    "score": 7053,
+    "tags": ["f:2.927238"]
+  },
+  {
+    "word": "fry",
+    "score": 7051,
+    "tags": ["f:3.477078"]
+  },
+  {
+    "word": "off",
+    "score": 7050,
+    "tags": ["f:98.391485"]
+  },
+  {
+    "word": "own",
+    "score": 7049,
+    "tags": ["f:396.978963"]
+  },
+  {
+    "word": "fen",
+    "score": 7047,
+    "tags": ["f:0.808128"]
+  },
+  {
+    "word": "nor",
+    "score": 7047,
+    "tags": ["f:33.954042"]
+  },
+  {
+    "word": "the",
+    "score": 7046,
+    "tags": ["f:407.210664"]
+  },
+  {
+    "word": "ran",
+    "score": 7044,
+    "tags": ["f:43.423490"]
+  },
+  {
+    "word": "fib",
+    "score": 7044,
+    "tags": ["f:0.258434"]
+  },
+  {
+    "word": "gab",
+    "score": 7043,
+    "tags": ["f:0.378542"]
+  },
+  {
+    "word": "git",
+    "score": 7040,
+    "tags": ["f:1.386974"]
+  },
+  {
+    "word": "cum",
+    "score": 7037,
+    "tags": ["f:4.014940"]
+  },
+  {
+    "word": "nay",
+    "score": 7036,
+    "tags": ["f:4.150753"]
+  },
+  {
+    "word": "eld",
+    "score": 7028,
+    "tags": ["f:0.195027"]
+  },
+  {
+    "word": "ssh",
+    "score": 7021,
+    "tags": ["f:0.425476"]
+  },
+  {
+    "word": "poz",
+    "score": 7009,
+    "tags": ["f:0.034225"]
+  },
+  {
+    "word": "rod",
+    "score": 6071,
+    "tags": ["f:11.060922"]
+  },
+  {
+    "word": "pod",
+    "score": 6071,
+    "tags": ["f:1.243201"]
+  },
+  {
+    "word": "asp",
+    "score": 6069,
+    "tags": ["f:1.729598"]
+  },
+  {
+    "word": "car",
+    "score": 6065,
+    "tags": ["f:67.091274"]
+  },
+  {
+    "word": "tie",
+    "score": 6064,
+    "tags": ["f:12.897448"]
+  },
+  {
+    "word": "nap",
+    "score": 6062,
+    "tags": ["f:2.080401"]
+  },
+  {
+    "word": "axe",
+    "score": 6058,
+    "tags": ["f:3.304947"]
+  },
+  {
+    "word": "dis",
+    "score": 6058,
+    "tags": ["f:9.943367"]
+  },
+  {
+    "word": "dew",
+    "score": 6057,
+    "tags": ["f:2.681884"]
+  },
+  {
+    "word": "son",
+    "score": 6056,
+    "tags": ["f:103.891760"]
+  },
+  {
+    "word": "doc",
+    "score": 6056,
+    "tags": ["f:6.503225"]
+  },
+  {
+    "word": "fig",
+    "score": 6056,
+    "tags": ["f:167.796221"]
+  },
+  {
+    "word": "abc",
+    "score": 6055,
+    "tags": ["f:4.097628"]
+  },
+  {
+    "word": "for",
+    "score": 6055,
+    "tags": ["f:5330.802977"]
+  },
+  {
+    "word": "asa",
+    "score": 6053,
+    "tags": ["f:1.796066"]
+  },
+  {
+    "word": "sod",
+    "score": 6053,
+    "tags": ["f:1.473122"]
+  },
+  {
+    "word": "orb",
+    "score": 6049,
+    "tags": ["f:0.762785"]
+  },
+  {
+    "word": "fun",
+    "score": 6048,
+    "tags": ["f:20.052891"]
+  },
+  {
+    "word": "spy",
+    "score": 6047,
+    "tags": ["f:4.273497"]
+  },
+  {
+    "word": "gyp",
+    "score": 6045,
+    "tags": ["f:0.123461"]
+  },
+  {
+    "word": "ell",
+    "score": 6043,
+    "tags": ["f:0.655357"]
+  },
+  {
+    "word": "ewe",
+    "score": 6043,
+    "tags": ["f:0.705878"]
+  },
+  {
+    "word": "nag",
+    "score": 6043,
+    "tags": ["f:0.964071"]
+  },
+  {
+    "word": "vis",
+    "score": 6043,
+    "tags": ["f:7.046969"]
+  },
+  {
+    "word": "eos",
+    "score": 6042,
+    "tags": ["f:0.599018"]
+  },
+  {
+    "word": "gat",
+    "score": 6040,
+    "tags": ["f:0.320010"]
+  },
+  {
+    "word": "she",
+    "score": 6040,
+    "tags": ["f:1336.366781"]
+  },
+  {
+    "word": "als",
+    "score": 6039,
+    "tags": ["f:6.236272"]
+  },
+  {
+    "word": "gar",
+    "score": 6038,
+    "tags": ["f:0.787686"]
+  },
+  {
+    "word": "awn",
+    "score": 6037,
+    "tags": ["f:0.110372"]
+  },
+  {
+    "word": "nub",
+    "score": 6037,
+    "tags": ["f:0.249936"]
+  },
+  {
+    "word": "daw",
+    "score": 6036,
+    "tags": ["f:0.302870"]
+  },
+  {
+    "word": "obi",
+    "score": 6035,
+    "tags": ["f:0.406837"]
+  },
+  {
+    "word": "dba",
+    "score": 6034,
+    "tags": ["f:0.611243"]
+  },
+  {
+    "word": "ain",
+    "score": 6033,
+    "tags": ["f:0.951457"]
+  },
+  {
+    "word": "thy",
+    "score": 6033,
+    "tags": ["f:4.374721"]
+  },
+  {
+    "word": "aby",
+    "score": 6027,
+    "tags": ["f:0.074348"]
+  },
+  {
+    "word": "chg",
+    "score": 6016,
+    "tags": ["f:0.047064"]
+  },
+  {
+    "word": "dot",
+    "score": 5082,
+    "tags": ["f:5.387747"]
+  },
+  {
+    "word": "gel",
+    "score": 5064,
+    "tags": ["f:7.761718"]
+  },
+  {
+    "word": "sea",
+    "score": 5062,
+    "tags": ["f:87.002513"]
+  },
+  {
+    "word": "sky",
+    "score": 5058,
+    "tags": ["f:28.836653"]
+  },
+  {
+    "word": "sac",
+    "score": 5057,
+    "tags": ["f:4.269276"]
+  },
+  {
+    "word": "cab",
+    "score": 5057,
+    "tags": ["f:5.212619"]
+  },
+  {
+    "word": "gal",
+    "score": 5055,
+    "tags": ["f:3.164318"]
+  },
+  {
+    "word": "oar",
+    "score": 5054,
+    "tags": ["f:1.134965"]
+  },
+  {
+    "word": "tow",
+    "score": 5052,
+    "tags": ["f:2.088412"]
+  },
+  {
+    "word": "epa",
+    "score": 5049,
+    "tags": ["f:3.557325"]
+  },
+  {
+    "word": "roc",
+    "score": 5048,
+    "tags": ["f:0.855530"]
+  },
+  {
+    "word": "fag",
+    "score": 5048,
+    "tags": ["f:0.373302"]
+  },
+  {
+    "word": "ore",
+    "score": 5048,
+    "tags": ["f:8.180364"]
+  },
+  {
+    "word": "say",
+    "score": 5048,
+    "tags": ["f:252.727692"]
+  },
+  {
+    "word": "tot",
+    "score": 5048,
+    "tags": ["f:1.519092"]
+  },
+  {
+    "word": "eta",
+    "score": 5046,
+    "tags": ["f:0.995810"]
+  },
+  {
+    "word": "aaa",
+    "score": 5046,
+    "tags": ["f:1.113595"]
+  },
+  {
+    "word": "sal",
+    "score": 5046,
+    "tags": ["f:1.858713"]
+  },
+  {
+    "word": "vie",
+    "score": 5045,
+    "tags": ["f:3.180213"]
+  },
+  {
+    "word": "cub",
+    "score": 5044,
+    "tags": ["f:0.894016"]
+  },
+  {
+    "word": "few",
+    "score": 5044,
+    "tags": ["f:266.540177"]
+  },
+  {
+    "word": "cox",
+    "score": 5043,
+    "tags": ["f:4.806309"]
+  },
+  {
+    "word": "nib",
+    "score": 5043,
+    "tags": ["f:0.221015"]
+  },
+  {
+    "word": "any",
+    "score": 5042,
+    "tags": ["f:81.296072"]
+  },
+  {
+    "word": "oaf",
+    "score": 5041,
+    "tags": ["f:0.138330"]
+  },
+  {
+    "word": "pyx",
+    "score": 5041,
+    "tags": ["f:0.037733"]
+  },
+  {
+    "word": "sty",
+    "score": 5041,
+    "tags": ["f:0.263048"]
+  },
+  {
+    "word": "vas",
+    "score": 5041,
+    "tags": ["f:1.509829"]
+  },
+  {
+    "word": "ent",
+    "score": 5040,
+    "tags": ["f:1.306299"]
+  },
+  {
+    "word": "neb",
+    "score": 5038,
+    "tags": ["f:0.373191"]
+  },
+  {
+    "word": "soc",
+    "score": 5037,
+    "tags": ["f:19.390727"]
+  },
+  {
+    "word": "fac",
+    "score": 5030,
+    "tags": ["f:0.837636"]
+  },
+  {
+    "word": "tet",
+    "score": 5029,
+    "tags": ["f:0.605919"]
+  },
+  {
+    "word": "ane",
+    "score": 5028,
+    "tags": ["f:0.387489"]
+  },
+  {
+    "word": "nee",
+    "score": 5027,
+    "tags": ["f:1.692492"]
+  },
+  {
+    "word": "dir",
+    "score": 5024,
+    "tags": ["f:2.864738"]
+  },
+  {
+    "word": "sil",
+    "score": 5024,
+    "tags": ["f:0.463312"]
+  },
+  {
+    "word": "vig",
+    "score": 5022,
+    "tags": ["f:0.131120"]
+  },
+  {
+    "word": "str",
+    "score": 5022,
+    "tags": ["f:1.296401"]
+  },
+  {
+    "word": "aad",
+    "score": 5019,
+    "tags": ["f:0.315793"]
+  },
+  {
+    "word": "aut",
+    "score": 5019,
+    "tags": ["f:1.023201"]
+  },
+  {
+    "word": "sez",
+    "score": 5015,
+    "tags": ["f:0.265851"]
+  },
+  {
+    "word": "auf",
+    "score": 5015,
+    "tags": ["f:5.429769"]
+  },
+  {
+    "word": "sny",
+    "score": 5014,
+    "tags": ["f:0.024164"]
+  },
+  {
+    "word": "sry",
+    "score": 5014,
+    "tags": ["f:0.082141"]
+  },
+  {
+    "word": "acy",
+    "score": 5013,
+    "tags": ["f:0.029857"]
+  },
+  {
+    "word": "pog",
+    "score": 5010,
+    "tags": ["f:0.037880"]
+  },
+  {
+    "word": "ahh",
+    "score": 5008,
+    "tags": ["f:0.215409"]
+  },
+  {
+    "word": "aww",
+    "score": 5008,
+    "tags": ["f:0.039735"]
+  },
+  {
+    "word": "gas",
+    "score": 4077,
+    "tags": ["f:57.886357"]
+  },
+  {
+    "word": "par",
+    "score": 4073,
+    "tags": ["f:14.914478"]
+  },
+  {
+    "word": "pal",
+    "score": 4063,
+    "tags": ["f:2.715241"]
+  },
+  {
+    "word": "cam",
+    "score": 4063,
+    "tags": ["f:3.694010"]
+  },
+  {
+    "word": "sub",
+    "score": 4063,
+    "tags": ["f:24.761203"]
+  },
+  {
+    "word": "tax",
+    "score": 4062,
+    "tags": ["f:70.383255"]
+  },
+  {
+    "word": "pie",
+    "score": 4060,
+    "tags": ["f:5.261189"]
+  },
+  {
+    "word": "tan",
+    "score": 4060,
+    "tags": ["f:5.452573"]
+  },
+  {
+    "word": "day",
+    "score": 4058,
+    "tags": ["f:348.105956"]
+  },
+  {
+    "word": "gut",
+    "score": 4058,
+    "tags": ["f:5.389962"]
+  },
+  {
+    "word": "std",
+    "score": 4057,
+    "tags": ["f:1.592553"]
+  },
+  {
+    "word": "rep",
+    "score": 4057,
+    "tags": ["f:2.239483"]
+  },
+  {
+    "word": "sin",
+    "score": 4056,
+    "tags": ["f:26.419950"]
+  },
+  {
+    "word": "fee",
+    "score": 4055,
+    "tags": ["f:13.096447"]
+  },
+  {
+    "word": "gig",
+    "score": 4055,
+    "tags": ["f:0.828357"]
+  },
+  {
+    "word": "owl",
+    "score": 4055,
+    "tags": ["f:2.892018"]
+  },
+  {
+    "word": "cog",
+    "score": 4054,
+    "tags": ["f:0.551688"]
+  },
+  {
+    "word": "sag",
+    "score": 4054,
+    "tags": ["f:1.065231"]
+  },
+  {
+    "word": "psi",
+    "score": 4053,
+    "tags": ["f:3.098231"]
+  },
+  {
+    "word": "rot",
+    "score": 4053,
+    "tags": ["f:2.894963"]
+  },
+  {
+    "word": "awl",
+    "score": 4052,
+    "tags": ["f:0.294066"]
+  },
+  {
+    "word": "pas",
+    "score": 4051,
+    "tags": ["f:6.611350"]
+  },
+  {
+    "word": "pax",
+    "score": 4049,
+    "tags": ["f:0.743238"]
+  },
+  {
+    "word": "via",
+    "score": 4046,
+    "tags": ["f:31.913665"]
+  },
+  {
+    "word": "pub",
+    "score": 4046,
+    "tags": ["f:5.415201"]
+  },
+  {
+    "word": "dad",
+    "score": 4045,
+    "tags": ["f:16.139872"]
+  },
+  {
+    "word": "nab",
+    "score": 4045,
+    "tags": ["f:0.361771"]
+  },
+  {
+    "word": "viz",
+    "score": 4045,
+    "tags": ["f:7.395916"]
+  },
+  {
+    "word": "cud",
+    "score": 4043,
+    "tags": ["f:0.247601"]
+  },
+  {
+    "word": "pox",
+    "score": 4043,
+    "tags": ["f:1.008003"]
+  },
+  {
+    "word": "ted",
+    "score": 4043,
+    "tags": ["f:5.591609"]
+  },
+  {
+    "word": "fab",
+    "score": 4040,
+    "tags": ["f:0.660364"]
+  },
+  {
+    "word": "ara",
+    "score": 4038,
+    "tags": ["f:0.978444"]
+  },
+  {
+    "word": "oft",
+    "score": 4038,
+    "tags": ["f:2.456077"]
+  },
+  {
+    "word": "acc",
+    "score": 4037,
+    "tags": ["f:1.168579"]
+  },
+  {
+    "word": "sax",
+    "score": 4037,
+    "tags": ["f:0.635339"]
+  },
+  {
+    "word": "tup",
+    "score": 4037,
+    "tags": ["f:0.085479"]
+  },
+  {
+    "word": "caw",
+    "score": 4036,
+    "tags": ["f:0.193239"]
+  },
+  {
+    "word": "cas",
+    "score": 4036,
+    "tags": ["f:2.505258"]
+  },
+  {
+    "word": "aye",
+    "score": 4035,
+    "tags": ["f:2.372212"]
+  },
+  {
+    "word": "ere",
+    "score": 4035,
+    "tags": ["f:2.720985"]
+  },
+  {
+    "word": "nra",
+    "score": 4034,
+    "tags": ["f:0.622064"]
+  },
+  {
+    "word": "dud",
+    "score": 4034,
+    "tags": ["f:0.226461"]
+  },
+  {
+    "word": "ade",
+    "score": 4032,
+    "tags": ["f:0.494476"]
+  },
+  {
+    "word": "dor",
+    "score": 4032,
+    "tags": ["f:0.531781"]
+  },
+  {
+    "word": "eke",
+    "score": 4032,
+    "tags": ["f:0.469012"]
+  },
+  {
+    "word": "poi",
+    "score": 4031,
+    "tags": ["f:0.389134"]
+  },
+  {
+    "word": "neg",
+    "score": 4029,
+    "tags": ["f:0.699449"]
+  },
+  {
+    "word": "cpl",
+    "score": 4028,
+    "tags": ["f:0.406865"]
+  },
+  {
+    "word": "ron",
+    "score": 4028,
+    "tags": ["f:3.658552"]
+  },
+  {
+    "word": "ene",
+    "score": 4027,
+    "tags": ["f:0.323289"]
+  },
+  {
+    "word": "ono",
+    "score": 4027,
+    "tags": ["f:0.542099"]
+  },
+  {
+    "word": "ema",
+    "score": 4026,
+    "tags": ["f:0.240034"]
+  },
+  {
+    "word": "det",
+    "score": 4026,
+    "tags": ["f:1.565633"]
+  },
+  {
+    "word": "ope",
+    "score": 4026,
+    "tags": ["f:0.259964"]
+  },
+  {
+    "word": "tec",
+    "score": 4025,
+    "tags": ["f:0.405240"]
+  },
+  {
+    "word": "tew",
+    "score": 4019,
+    "tags": ["f:0.285599"]
+  },
+  {
+    "word": "dau",
+    "score": 4018,
+    "tags": ["f:0.647818"]
+  },
+  {
+    "word": "dof",
+    "score": 4018,
+    "tags": ["f:0.220341"]
+  },
+  {
+    "word": "psd",
+    "score": 4017,
+    "tags": ["f:0.479148"]
+  },
+  {
+    "word": "cun",
+    "score": 4017,
+    "tags": ["f:0.199003"]
+  },
+  {
+    "word": "gaw",
+    "score": 4017,
+    "tags": ["f:0.085388"]
+  },
+  {
+    "word": "rar",
+    "score": 4014,
+    "tags": ["f:0.194083"]
+  },
+  {
+    "word": "ona",
+    "score": 4013,
+    "tags": ["f:0.325524"]
+  },
+  {
+    "word": "poy",
+    "score": 4013,
+    "tags": ["f:0.036544"]
+  },
+  {
+    "word": "ofc",
+    "score": 4012,
+    "tags": ["f:0.184320"]
+  },
+  {
+    "word": "eww",
+    "score": 4011,
+    "tags": ["f:0.009521"]
+  },
+  {
+    "word": "agg",
+    "score": 4009,
+    "tags": ["f:0.122605"]
+  },
+  {
+    "word": "exh",
+    "score": 4006,
+    "tags": ["f:0.258074"]
+  },
+  {
+    "word": "exy",
+    "score": 4004,
+    "tags": ["f:0.006576"]
+  },
+  {
+    "word": "sit",
+    "score": 3066,
+    "tags": ["f:35.583423"]
+  },
+  {
+    "word": "ton",
+    "score": 3064,
+    "tags": ["f:7.442846"]
+  },
+  {
+    "word": "spa",
+    "score": 3061,
+    "tags": ["f:1.746608"]
+  },
+  {
+    "word": "tee",
+    "score": 3060,
+    "tags": ["f:1.942396"]
+  },
+  {
+    "word": "per",
+    "score": 3059,
+    "tags": ["f:219.184744"]
+  },
+  {
+    "word": "toe",
+    "score": 3059,
+    "tags": ["f:5.252116"]
+  },
+  {
+    "word": "nit",
+    "score": 3056,
+    "tags": ["f:0.490100"]
+  },
+  {
+    "word": "fed",
+    "score": 3056,
+    "tags": ["f:19.659666"]
+  },
+  {
+    "word": "rig",
+    "score": 3055,
+    "tags": ["f:2.130874"]
+  },
+  {
+    "word": "sip",
+    "score": 3054,
+    "tags": ["f:2.529490"]
+  },
+  {
+    "word": "tat",
+    "score": 3053,
+    "tags": ["f:1.683169"]
+  },
+  {
+    "word": "ala",
+    "score": 3052,
+    "tags": ["f:1.860754"]
+  },
+  {
+    "word": "eat",
+    "score": 3051,
+    "tags": ["f:38.265752"]
+  },
+  {
+    "word": "aka",
+    "score": 3050,
+    "tags": ["f:0.445391"]
+  },
+  {
+    "word": "psa",
+    "score": 3050,
+    "tags": ["f:1.025246"]
+  },
+  {
+    "word": "emu",
+    "score": 3050,
+    "tags": ["f:0.897873"]
+  },
+  {
+    "word": "sis",
+    "score": 3050,
+    "tags": ["f:1.535008"]
+  },
+  {
+    "word": "far",
+    "score": 3049,
+    "tags": ["f:211.598915"]
+  },
+  {
+    "word": "rye",
+    "score": 3048,
+    "tags": ["f:2.049256"]
+  },
+  {
+    "word": "pup",
+    "score": 3048,
+    "tags": ["f:0.912024"]
+  },
+  {
+    "word": "rob",
+    "score": 3048,
+    "tags": ["f:4.607675"]
+  },
+  {
+    "word": "alb",
+    "score": 3047,
+    "tags": ["f:0.258851"]
+  },
+  {
+    "word": "now",
+    "score": 3046,
+    "tags": ["f:557.004594"]
+  },
+  {
+    "word": "apr",
+    "score": 3045,
+    "tags": ["f:2.398901"]
+  },
+  {
+    "word": "cor",
+    "score": 3045,
+    "tags": ["f:5.031585"]
+  },
+  {
+    "word": "eft",
+    "score": 3045,
+    "tags": ["f:0.569284"]
+  },
+  {
+    "word": "fcc",
+    "score": 3045,
+    "tags": ["f:1.989813"]
+  },
+  {
+    "word": "gen",
+    "score": 3045,
+    "tags": ["f:4.946625"]
+  },
+  {
+    "word": "dan",
+    "score": 3044,
+    "tags": ["f:10.715693"]
+  },
+  {
+    "word": "sew",
+    "score": 3043,
+    "tags": ["f:1.632204"]
+  },
+  {
+    "word": "ago",
+    "score": 3042,
+    "tags": ["f:57.697292"]
+  },
+  {
+    "word": "sib",
+    "score": 3042,
+    "tags": ["f:0.559949"]
+  },
+  {
+    "word": "nob",
+    "score": 3041,
+    "tags": ["f:0.207295"]
+  },
+  {
+    "word": "sas",
+    "score": 3041,
+    "tags": ["f:1.470233"]
+  },
+  {
+    "word": "tun",
+    "score": 3040,
+    "tags": ["f:0.931753"]
+  },
+  {
+    "word": "aga",
+    "score": 3038,
+    "tags": ["f:0.602288"]
+  },
+  {
+    "word": "ama",
+    "score": 3037,
+    "tags": ["f:1.348107"]
+  },
+  {
+    "word": "deb",
+    "score": 3037,
+    "tags": ["f:0.809667"]
+  },
+  {
+    "word": "cay",
+    "score": 3036,
+    "tags": ["f:0.467248"]
+  },
+  {
+    "word": "poe",
+    "score": 3036,
+    "tags": ["f:2.309898"]
+  },
+  {
+    "word": "tad",
+    "score": 3036,
+    "tags": ["f:0.934250"]
+  },
+  {
+    "word": "tog",
+    "score": 3036,
+    "tags": ["f:0.126066"]
+  },
+  {
+    "word": "eva",
+    "score": 3035,
+    "tags": ["f:3.472540"]
+  },
+  {
+    "word": "ess",
+    "score": 3034,
+    "tags": ["f:0.766824"]
+  },
+  {
+    "word": "esa",
+    "score": 3033,
+    "tags": ["f:0.848517"]
+  },
+  {
+    "word": "sus",
+    "score": 3033,
+    "tags": ["f:1.766622"]
+  },
+  {
+    "word": "azo",
+    "score": 3032,
+    "tags": ["f:0.265807"]
+  },
+  {
+    "word": "soh",
+    "score": 3032,
+    "tags": ["f:0.103075"]
+  },
+  {
+    "word": "ren",
+    "score": 3031,
+    "tags": ["f:0.984073"]
+  },
+  {
+    "word": "aug",
+    "score": 3031,
+    "tags": ["f:2.500490"]
+  },
+  {
+    "word": "cit",
+    "score": 3030,
+    "tags": ["f:19.015650"]
+  },
+  {
+    "word": "gam",
+    "score": 3030,
+    "tags": ["f:0.391691"]
+  },
+  {
+    "word": "oda",
+    "score": 3029,
+    "tags": ["f:0.843574"]
+  },
+  {
+    "word": "obs",
+    "score": 3028,
+    "tags": ["f:0.600885"]
+  },
+  {
+    "word": "dee",
+    "score": 3027,
+    "tags": ["f:2.286820"]
+  },
+  {
+    "word": "ern",
+    "score": 3026,
+    "tags": ["f:0.256797"]
+  },
+  {
+    "word": "ree",
+    "score": 3026,
+    "tags": ["f:0.639906"]
+  },
+  {
+    "word": "dey",
+    "score": 3025,
+    "tags": ["f:0.966798"]
+  },
+  {
+    "word": "cro",
+    "score": 3025,
+    "tags": ["f:0.479362"]
+  },
+  {
+    "word": "oka",
+    "score": 3024,
+    "tags": ["f:0.348499"]
+  },
+  {
+    "word": "ned",
+    "score": 3024,
+    "tags": ["f:3.222580"]
+  },
+  {
+    "word": "ola",
+    "score": 3023,
+    "tags": ["f:0.332755"]
+  },
+  {
+    "word": "sao",
+    "score": 3023,
+    "tags": ["f:3.384278"]
+  },
+  {
+    "word": "ska",
+    "score": 3023,
+    "tags": ["f:0.138334"]
+  },
+  {
+    "word": "cag",
+    "score": 3023,
+    "tags": ["f:0.205464"]
+  },
+  {
+    "word": "enc",
+    "score": 3023,
+    "tags": ["f:0.206447"]
+  },
+  {
+    "word": "elt",
+    "score": 3022,
+    "tags": ["f:0.183587"]
+  },
+  {
+    "word": "oro",
+    "score": 3022,
+    "tags": ["f:0.805235"]
+  },
+  {
+    "word": "amy",
+    "score": 3022,
+    "tags": ["f:4.536058"]
+  },
+  {
+    "word": "duh",
+    "score": 3022,
+    "tags": ["f:0.180535"]
+  },
+  {
+    "word": "dux",
+    "score": 3021,
+    "tags": ["f:0.164195"]
+  },
+  {
+    "word": "foy",
+    "score": 3021,
+    "tags": ["f:0.351461"]
+  },
+  {
+    "word": "gog",
+    "score": 3021,
+    "tags": ["f:0.226643"]
+  },
+  {
+    "word": "fic",
+    "score": 3019,
+    "tags": ["f:0.168084"]
+  },
+  {
+    "word": "aac",
+    "score": 3018,
+    "tags": ["f:0.288164"]
+  },
+  {
+    "word": "cao",
+    "score": 3018,
+    "tags": ["f:1.161575"]
+  },
+  {
+    "word": "ela",
+    "score": 3016,
+    "tags": ["f:0.307092"]
+  },
+  {
+    "word": "vag",
+    "score": 3016,
+    "tags": ["f:0.056962"]
+  },
+  {
+    "word": "ato",
+    "score": 3015,
+    "tags": ["f:0.251236"]
+  },
+  {
+    "word": "abe",
+    "score": 3015,
+    "tags": ["f:2.036778"]
+  },
+  {
+    "word": "pwn",
+    "score": 3013,
+    "tags": ["f:0.085788"]
+  },
+  {
+    "word": "rnd",
+    "score": 3012,
+    "tags": ["f:0.117436"]
+  },
+  {
+    "word": "geg",
+    "score": 3011,
+    "tags": ["f:0.015566"]
+  },
+  {
+    "word": "eyr",
+    "score": 3010,
+    "tags": ["f:0.007789"]
+  },
+  {
+    "word": "sie",
+    "score": 3010,
+    "tags": ["f:3.566145"]
+  },
+  {
+    "word": "tsn",
+    "score": 3009,
+    "tags": ["f:0.056213"]
+  },
+  {
+    "word": "cbj",
+    "score": 3007,
+    "tags": ["f:0.013216"]
+  },
+  {
+    "word": "ofl",
+    "score": 3005,
+    "tags": ["f:0.143182"]
+  },
+  {
+    "word": "cop",
+    "score": 2066,
+    "tags": ["f:3.688385"]
+  },
+  {
+    "word": "tic",
+    "score": 2061,
+    "tags": ["f:1.345289"]
+  },
+  {
+    "word": "cis",
+    "score": 2058,
+    "tags": ["f:2.312368"]
+  },
+  {
+    "word": "van",
+    "score": 2055,
+    "tags": ["f:49.813230"]
+  },
+  {
+    "word": "tub",
+    "score": 2055,
+    "tags": ["f:3.093284"]
+  },
+  {
+    "word": "ada",
+    "score": 2054,
+    "tags": ["f:4.236767"]
+  },
+  {
+    "word": "cpa",
+    "score": 2053,
+    "tags": ["f:0.849259"]
+  },
+  {
+    "word": "non",
+    "score": 2052,
+    "tags": ["f:123.500597"]
+  },
+  {
+    "word": "sup",
+    "score": 2052,
+    "tags": ["f:1.405779"]
+  },
+  {
+    "word": "ate",
+    "score": 2051,
+    "tags": ["f:12.221086"]
+  },
+  {
+    "word": "elf",
+    "score": 2050,
+    "tags": ["f:0.954858"]
+  },
+  {
+    "word": "cdc",
+    "score": 2049,
+    "tags": ["f:1.429963"]
+  },
+  {
+    "word": "sue",
+    "score": 2049,
+    "tags": ["f:6.427493"]
+  },
+  {
+    "word": "fad",
+    "score": 2048,
+    "tags": ["f:1.117638"]
+  },
+  {
+    "word": "fur",
+    "score": 2048,
+    "tags": ["f:14.502051"]
+  },
+  {
+    "word": "aba",
+    "score": 2047,
+    "tags": ["f:1.083941"]
+  },
+  {
+    "word": "cbc",
+    "score": 2047,
+    "tags": ["f:0.828499"]
+  },
+  {
+    "word": "pam",
+    "score": 2047,
+    "tags": ["f:1.775184"]
+  },
+  {
+    "word": "otc",
+    "score": 2046,
+    "tags": ["f:0.613950"]
+  },
+  {
+    "word": "var",
+    "score": 2046,
+    "tags": ["f:4.500850"]
+  },
+  {
+    "word": "pug",
+    "score": 2046,
+    "tags": ["f:0.316411"]
+  },
+  {
+    "word": "elk",
+    "score": 2045,
+    "tags": ["f:2.091980"]
+  },
+  {
+    "word": "rug",
+    "score": 2045,
+    "tags": ["f:2.433047"]
+  },
+  {
+    "word": "fas",
+    "score": 2044,
+    "tags": ["f:1.083973"]
+  },
+  {
+    "word": "ceo",
+    "score": 2044,
+    "tags": ["f:2.733004"]
+  },
+  {
+    "word": "got",
+    "score": 2043,
+    "tags": ["f:157.132202"]
+  },
+  {
+    "word": "emf",
+    "score": 2043,
+    "tags": ["f:0.855704"]
+  },
+  {
+    "word": "nat",
+    "score": 2043,
+    "tags": ["f:6.275087"]
+  },
+  {
+    "word": "ave",
+    "score": 2042,
+    "tags": ["f:5.358826"]
+  },
+  {
+    "word": "ras",
+    "score": 2042,
+    "tags": ["f:2.067839"]
+  },
+  {
+    "word": "epi",
+    "score": 2042,
+    "tags": ["f:0.601016"]
+  },
+  {
+    "word": "ova",
+    "score": 2041,
+    "tags": ["f:0.899478"]
+  },
+  {
+    "word": "san",
+    "score": 2041,
+    "tags": ["f:50.200929"]
+  },
+  {
+    "word": "tnt",
+    "score": 2041,
+    "tags": ["f:0.442862"]
+  },
+  {
+    "word": "dit",
+    "score": 2040,
+    "tags": ["f:1.224087"]
+  },
+  {
+    "word": "nih",
+    "score": 2040,
+    "tags": ["f:1.258644"]
+  },
+  {
+    "word": "nsf",
+    "score": 2040,
+    "tags": ["f:0.873542"]
+  },
+  {
+    "word": "nan",
+    "score": 2040,
+    "tags": ["f:2.387350"]
+  },
+  {
+    "word": "pdf",
+    "score": 2040,
+    "tags": ["f:1.540652"]
+  },
+  {
+    "word": "duo",
+    "score": 2039,
+    "tags": ["f:0.873982"]
+  },
+  {
+    "word": "ole",
+    "score": 2039,
+    "tags": ["f:2.009973"]
+  },
+  {
+    "word": "ria",
+    "score": 2038,
+    "tags": ["f:0.682685"]
+  },
+  {
+    "word": "vet",
+    "score": 2038,
+    "tags": ["f:2.514165"]
+  },
+  {
+    "word": "ani",
+    "score": 2037,
+    "tags": ["f:0.716133"]
+  },
+  {
+    "word": "abo",
+    "score": 2037,
+    "tags": ["f:0.903513"]
+  },
+  {
+    "word": "ssi",
+    "score": 2037,
+    "tags": ["f:0.669667"]
+  },
+  {
+    "word": "nim",
+    "score": 2037,
+    "tags": ["f:0.283205"]
+  },
+  {
+    "word": "oma",
+    "score": 2036,
+    "tags": ["f:0.228015"]
+  },
+  {
+    "word": "sss",
+    "score": 2036,
+    "tags": ["f:0.322167"]
+  },
+  {
+    "word": "goo",
+    "score": 2036,
+    "tags": ["f:0.410706"]
+  },
+  {
+    "word": "adz",
+    "score": 2035,
+    "tags": ["f:0.040987"]
+  },
+  {
+    "word": "sim",
+    "score": 2035,
+    "tags": ["f:1.194682"]
+  },
+  {
+    "word": "ans",
+    "score": 2034,
+    "tags": ["f:2.430700"]
+  },
+  {
+    "word": "csf",
+    "score": 2034,
+    "tags": ["f:3.510475"]
+  },
+  {
+    "word": "nog",
+    "score": 2034,
+    "tags": ["f:0.192954"]
+  },
+  {
+    "word": "teg",
+    "score": 2034,
+    "tags": ["f:0.141680"]
+  },
+  {
+    "word": "gib",
+    "score": 2034,
+    "tags": ["f:0.207299"]
+  },
+  {
+    "word": "gym",
+    "score": 2034,
+    "tags": ["f:2.083211"]
+  },
+  {
+    "word": "nth",
+    "score": 2034,
+    "tags": ["f:1.134814"]
+  },
+  {
+    "word": "dib",
+    "score": 2033,
+    "tags": ["f:0.115339"]
+  },
+  {
+    "word": "ord",
+    "score": 2033,
+    "tags": ["f:0.950645"]
+  },
+  {
+    "word": "ali",
+    "score": 2032,
+    "tags": ["f:7.302819"]
+  },
+  {
+    "word": "eng",
+    "score": 2032,
+    "tags": ["f:6.599989"]
+  },
+  {
+    "word": "sae",
+    "score": 2032,
+    "tags": ["f:0.897742"]
+  },
+  {
+    "word": "svc",
+    "score": 2032,
+    "tags": ["f:0.247022"]
+  },
+  {
+    "word": "gan",
+    "score": 2032,
+    "tags": ["f:1.122780"]
+  },
+  {
+    "word": "arb",
+    "score": 2031,
+    "tags": ["f:0.363166"]
+  },
+  {
+    "word": "ocd",
+    "score": 2031,
+    "tags": ["f:0.817325"]
+  },
+  {
+    "word": "sro",
+    "score": 2031,
+    "tags": ["f:0.242745"]
+  },
+  {
+    "word": "sse",
+    "score": 2031,
+    "tags": ["f:0.263488"]
+  },
+  {
+    "word": "def",
+    "score": 2031,
+    "tags": ["f:1.153964"]
+  },
+  {
+    "word": "aas",
+    "score": 2030,
+    "tags": ["f:0.525126"]
+  },
+  {
+    "word": "ens",
+    "score": 2030,
+    "tags": ["f:0.580514"]
+  },
+  {
+    "word": "suv",
+    "score": 2030,
+    "tags": ["f:0.312213"]
+  },
+  {
+    "word": "opp",
+    "score": 2030,
+    "tags": ["f:0.377226"]
+  },
+  {
+    "word": "tam",
+    "score": 2030,
+    "tags": ["f:1.014912"]
+  },
+  {
+    "word": "fie",
+    "score": 2029,
+    "tags": ["f:1.001998"]
+  },
+  {
+    "word": "nep",
+    "score": 2029,
+    "tags": ["f:0.577188"]
+  },
+  {
+    "word": "cha",
+    "score": 2029,
+    "tags": ["f:1.062432"]
+  },
+  {
+    "word": "doi",
+    "score": 2028,
+    "tags": ["f:0.719728"]
+  },
+  {
+    "word": "dwt",
+    "score": 2028,
+    "tags": ["f:0.235122"]
+  },
+  {
+    "word": "emi",
+    "score": 2028,
+    "tags": ["f:0.687184"]
+  },
+  {
+    "word": "omb",
+    "score": 2028,
+    "tags": ["f:0.488106"]
+  },
+  {
+    "word": "atf",
+    "score": 2027,
+    "tags": ["f:0.240684"]
+  },
+  {
+    "word": "exo",
+    "score": 2027,
+    "tags": ["f:0.204552"]
+  },
+  {
+    "word": "nac",
+    "score": 2027,
+    "tags": ["f:0.560456"]
+  },
+  {
+    "word": "orf",
+    "score": 2027,
+    "tags": ["f:0.233929"]
+  },
+  {
+    "word": "prc",
+    "score": 2027,
+    "tags": ["f:1.728790"]
+  },
+  {
+    "word": "vin",
+    "score": 2027,
+    "tags": ["f:0.845707"]
+  },
+  {
+    "word": "ded",
+    "score": 2026,
+    "tags": ["f:0.216337"]
+  },
+  {
+    "word": "rbi",
+    "score": 2026,
+    "tags": ["f:0.332941"]
+  },
+  {
+    "word": "rai",
+    "score": 2026,
+    "tags": ["f:1.332759"]
+  },
+  {
+    "word": "reb",
+    "score": 2026,
+    "tags": ["f:0.909951"]
+  },
+  {
+    "word": "vee",
+    "score": 2026,
+    "tags": ["f:0.387097"]
+  },
+  {
+    "word": "anu",
+    "score": 2025,
+    "tags": ["f:0.404586"]
+  },
+  {
+    "word": "fon",
+    "score": 2025,
+    "tags": ["f:0.317731"]
+  },
+  {
+    "word": "nbc",
+    "score": 2025,
+    "tags": ["f:1.691418"]
+  },
+  {
+    "word": "ooh",
+    "score": 2025,
+    "tags": ["f:0.275242"]
+  },
+  {
+    "word": "edu",
+    "score": 2025,
+    "tags": ["f:0.523548"]
+  },
+  {
+    "word": "emp",
+    "score": 2025,
+    "tags": ["f:0.497092"]
+  },
+  {
+    "word": "fae",
+    "score": 2024,
+    "tags": ["f:0.145299"]
+  },
+  {
+    "word": "fil",
+    "score": 2024,
+    "tags": ["f:0.449711"]
+  },
+  {
+    "word": "ful",
+    "score": 2024,
+    "tags": ["f:0.625267"]
+  },
+  {
+    "word": "nyc",
+    "score": 2024,
+    "tags": ["f:0.378693"]
+  },
+  {
+    "word": "sta",
+    "score": 2024,
+    "tags": ["f:1.555676"]
+  },
+  {
+    "word": "dep",
+    "score": 2024,
+    "tags": ["f:0.880443"]
+  },
+  {
+    "word": "coa",
+    "score": 2022,
+    "tags": ["f:1.589730"]
+  },
+  {
+    "word": "ney",
+    "score": 2022,
+    "tags": ["f:0.405604"]
+  },
+  {
+    "word": "ssc",
+    "score": 2022,
+    "tags": ["f:0.490627"]
+  },
+  {
+    "word": "tye",
+    "score": 2022,
+    "tags": ["f:0.165448"]
+  },
+  {
+    "word": "dex",
+    "score": 2022,
+    "tags": ["f:0.268372"]
+  },
+  {
+    "word": "olm",
+    "score": 2022,
+    "tags": ["f:0.033674"]
+  },
+  {
+    "word": "oud",
+    "score": 2022,
+    "tags": ["f:0.142798"]
+  },
+  {
+    "word": "tib",
+    "score": 2022,
+    "tags": ["f:0.247708"]
+  },
+  {
+    "word": "pvs",
+    "score": 2021,
+    "tags": ["f:0.157726"]
+  },
+  {
+    "word": "spe",
+    "score": 2021,
+    "tags": ["f:0.699936"]
+  },
+  {
+    "word": "ano",
+    "score": 2021,
+    "tags": ["f:0.970881"]
+  },
+  {
+    "word": "tsk",
+    "score": 2021,
+    "tags": ["f:0.201151"]
+  },
+  {
+    "word": "ake",
+    "score": 2020,
+    "tags": ["f:0.296932"]
+  },
+  {
+    "word": "noy",
+    "score": 2019,
+    "tags": ["f:0.130438"]
+  },
+  {
+    "word": "edh",
+    "score": 2019,
+    "tags": ["f:0.036536"]
+  },
+  {
+    "word": "osm",
+    "score": 2019,
+    "tags": ["f:0.073111"]
+  },
+  {
+    "word": "nts",
+    "score": 2018,
+    "tags": ["f:0.456105"]
+  },
+  {
+    "word": "pcc",
+    "score": 2018,
+    "tags": ["f:0.431473"]
+  },
+  {
+    "word": "tpr",
+    "score": 2018,
+    "tags": ["f:0.138632"]
+  },
+  {
+    "word": "fah",
+    "score": 2018,
+    "tags": ["f:0.086474"]
+  },
+  {
+    "word": "aon",
+    "score": 2017,
+    "tags": ["f:0.097494"]
+  },
+  {
+    "word": "eau",
+    "score": 2017,
+    "tags": ["f:0.722856"]
+  },
+  {
+    "word": "otf",
+    "score": 2017,
+    "tags": ["f:0.092927"]
+  },
+  {
+    "word": "por",
+    "score": 2017,
+    "tags": ["f:4.508572"]
+  },
+  {
+    "word": "ept",
+    "score": 2017,
+    "tags": ["f:0.068002"]
+  },
+  {
+    "word": "tol",
+    "score": 2017,
+    "tags": ["f:0.366377"]
+  },
+  {
+    "word": "civ",
+    "score": 2016,
+    "tags": ["f:0.857222"]
+  },
+  {
+    "word": "aff",
+    "score": 2015,
+    "tags": ["f:0.379244"]
+  },
+  {
+    "word": "ewt",
+    "score": 2015,
+    "tags": ["f:0.017469"]
+  },
+  {
+    "word": "ner",
+    "score": 2015,
+    "tags": ["f:0.493783"]
+  },
+  {
+    "word": "soi",
+    "score": 2015,
+    "tags": ["f:0.743361"]
+  },
+  {
+    "word": "nur",
+    "score": 2015,
+    "tags": ["f:2.263143"]
+  },
+  {
+    "word": "sye",
+    "score": 2015,
+    "tags": ["f:0.031906"]
+  },
+  {
+    "word": "cpg",
+    "score": 2014,
+    "tags": ["f:0.292069"]
+  },
+  {
+    "word": "eam",
+    "score": 2014,
+    "tags": ["f:0.331530"]
+  },
+  {
+    "word": "eod",
+    "score": 2014,
+    "tags": ["f:0.080623"]
+  },
+  {
+    "word": "naa",
+    "score": 2014,
+    "tags": ["f:0.390993"]
+  },
+  {
+    "word": "prt",
+    "score": 2014,
+    "tags": ["f:0.256825"]
+  },
+  {
+    "word": "aro",
+    "score": 2013,
+    "tags": ["f:0.305772"]
+  },
+  {
+    "word": "gah",
+    "score": 2013,
+    "tags": ["f:0.082256"]
+  },
+  {
+    "word": "soo",
+    "score": 2013,
+    "tags": ["f:0.559862"]
+  },
+  {
+    "word": "oot",
+    "score": 2013,
+    "tags": ["f:0.161190"]
+  },
+  {
+    "word": "arn",
+    "score": 2012,
+    "tags": ["f:0.210526"]
+  },
+  {
+    "word": "faw",
+    "score": 2012,
+    "tags": ["f:0.127929"]
+  },
+  {
+    "word": "oeo",
+    "score": 2012,
+    "tags": ["f:0.255168"]
+  },
+  {
+    "word": "fal",
+    "score": 2012,
+    "tags": ["f:0.197247"]
+  },
+  {
+    "word": "sov",
+    "score": 2012,
+    "tags": ["f:0.422027"]
+  },
+  {
+    "word": "aya",
+    "score": 2011,
+    "tags": ["f:0.189279"]
+  },
+  {
+    "word": "cau",
+    "score": 2011,
+    "tags": ["f:0.123905"]
+  },
+  {
+    "word": "eed",
+    "score": 2011,
+    "tags": ["f:0.088674"]
+  },
+  {
+    "word": "goi",
+    "score": 2011,
+    "tags": ["f:0.178057"]
+  },
+  {
+    "word": "ofr",
+    "score": 2011,
+    "tags": ["f:0.119850"]
+  },
+  {
+    "word": "stf",
+    "score": 2011,
+    "tags": ["f:0.090295"]
+  },
+  {
+    "word": "nyt",
+    "score": 2010,
+    "tags": ["f:0.708395"]
+  },
+  {
+    "word": "teh",
+    "score": 2010,
+    "tags": ["f:0.404922"]
+  },
+  {
+    "word": "aak",
+    "score": 2010,
+    "tags": ["f:0.027526"]
+  },
+  {
+    "word": "eba",
+    "score": 2010,
+    "tags": ["f:0.107677"]
+  },
+  {
+    "word": "rox",
+    "score": 2010,
+    "tags": ["f:0.041721"]
+  },
+  {
+    "word": "ofd",
+    "score": 2009,
+    "tags": ["f:0.070416"]
+  },
+  {
+    "word": "ael",
+    "score": 2009,
+    "tags": ["f:0.077111"]
+  },
+  {
+    "word": "gud",
+    "score": 2009,
+    "tags": ["f:0.068358"]
+  },
+  {
+    "word": "tiz",
+    "score": 2009,
+    "tags": ["f:0.017430"]
+  },
+  {
+    "word": "onr",
+    "score": 2008,
+    "tags": ["f:0.142528"]
+  },
+  {
+    "word": "oja",
+    "score": 2008,
+    "tags": ["f:0.079783"]
+  },
+  {
+    "word": "ofb",
+    "score": 2007,
+    "tags": ["f:0.046921"]
+  },
+  {
+    "word": "orl",
+    "score": 2007,
+    "tags": ["f:0.092194"]
+  },
+  {
+    "word": "eaw",
+    "score": 2006,
+    "tags": ["f:0.021814"]
+  },
+  {
+    "word": "efg",
+    "score": 2006,
+    "tags": ["f:0.061410"]
+  },
+  {
+    "word": "onl",
+    "score": 2006,
+    "tags": ["f:0.112343"]
+  },
+  {
+    "word": "ofp",
+    "score": 2005,
+    "tags": ["f:0.072176"]
+  },
+  {
+    "word": "aqo",
+    "score": 2005,
+    "tags": ["f:0.002822"]
+  },
+  {
+    "word": "g-d",
+    "score": 2004,
+    "tags": ["f:0.000000"]
+  },
+  {
+    "word": "c'n",
+    "score": 2002,
+    "tags": ["f:0.005474"]
+  },
+  {
+    "word": "dna",
+    "score": 1093,
+    "tags": ["f:29.832729"]
+  },
+  {
+    "word": "sec",
+    "score": 1070,
+    "tags": ["f:26.004820"]
+  },
+  {
+    "word": "dos",
+    "score": 1068,
+    "tags": ["f:5.907303"]
+  },
+  {
+    "word": "ohm",
+    "score": 1066,
+    "tags": ["f:0.762079"]
+  },
+  {
+    "word": "rom",
+    "score": 1063,
+    "tags": ["f:6.638126"]
+  },
+  {
+    "word": "rad",
+    "score": 1061,
+    "tags": ["f:1.684088"]
+  },
+  {
+    "word": "vat",
+    "score": 1061,
+    "tags": ["f:1.994926"]
+  },
+  {
+    "word": "des",
+    "score": 1061,
+    "tags": ["f:56.536720"]
+  },
+  {
+    "word": "roe",
+    "score": 1060,
+    "tags": ["f:1.942622"]
+  },
+  {
+    "word": "alt",
+    "score": 1059,
+    "tags": ["f:2.265803"]
+  },
+  {
+    "word": "pus",
+    "score": 1057,
+    "tags": ["f:1.657260"]
+  },
+  {
+    "word": "sum",
+    "score": 1055,
+    "tags": ["f:30.343303"]
+  },
+  {
+    "word": "oak",
+    "score": 1054,
+    "tags": ["f:8.931701"]
+  },
+  {
+    "word": "ten",
+    "score": 1054,
+    "tags": ["f:87.662651"]
+  },
+  {
+    "word": "abs",
+    "score": 1052,
+    "tags": ["f:1.440951"]
+  },
+  {
+    "word": "dye",
+    "score": 1051,
+    "tags": ["f:5.583705"]
+  },
+  {
+    "word": "dsl",
+    "score": 1050,
+    "tags": ["f:0.411114"]
+  },
+  {
+    "word": "stp",
+    "score": 1050,
+    "tags": ["f:0.532483"]
+  },
+  {
+    "word": "six",
+    "score": 1050,
+    "tags": ["f:112.237069"]
+  },
+  {
+    "word": "ale",
+    "score": 1050,
+    "tags": ["f:1.977429"]
+  },
+  {
+    "word": "cal",
+    "score": 1050,
+    "tags": ["f:6.060403"]
+  },
+  {
+    "word": "dom",
+    "score": 1050,
+    "tags": ["f:2.582789"]
+  },
+  {
+    "word": "fax",
+    "score": 1050,
+    "tags": ["f:6.452656"]
+  },
+  {
+    "word": "gnu",
+    "score": 1050,
+    "tags": ["f:0.337000"]
+  },
+  {
+    "word": "rem",
+    "score": 1050,
+    "tags": ["f:2.702679"]
+  },
+  {
+    "word": "pcp",
+    "score": 1049,
+    "tags": ["f:0.715368"]
+  },
+  {
+    "word": "eel",
+    "score": 1049,
+    "tags": ["f:1.177938"]
+  },
+  {
+    "word": "pea",
+    "score": 1049,
+    "tags": ["f:1.986154"]
+  },
+  {
+    "word": "gdp",
+    "score": 1048,
+    "tags": ["f:6.579582"]
+  },
+  {
+    "word": "oem",
+    "score": 1048,
+    "tags": ["f:0.399904"]
+  },
+  {
+    "word": "pvc",
+    "score": 1048,
+    "tags": ["f:1.320264"]
+  },
+  {
+    "word": "com",
+    "score": 1048,
+    "tags": ["f:10.518054"]
+  },
+  {
+    "word": "cps",
+    "score": 1048,
+    "tags": ["f:1.324208"]
+  },
+  {
+    "word": "cif",
+    "score": 1047,
+    "tags": ["f:0.140178"]
+  },
+  {
+    "word": "eps",
+    "score": 1046,
+    "tags": ["f:0.860885"]
+  },
+  {
+    "word": "elm",
+    "score": 1046,
+    "tags": ["f:1.494076"]
+  },
+  {
+    "word": "ems",
+    "score": 1046,
+    "tags": ["f:1.285643"]
+  },
+  {
+    "word": "nun",
+    "score": 1046,
+    "tags": ["f:3.043314"]
+  },
+  {
+    "word": "tod",
+    "score": 1046,
+    "tags": ["f:0.963904"]
+  },
+  {
+    "word": "tor",
+    "score": 1045,
+    "tags": ["f:4.619127"]
+  },
+  {
+    "word": "ret",
+    "score": 1045,
+    "tags": ["f:0.912694"]
+  },
+  {
+    "word": "gis",
+    "score": 1044,
+    "tags": ["f:2.268657"]
+  },
+  {
+    "word": "pre",
+    "score": 1044,
+    "tags": ["f:37.451233"]
+  },
+  {
+    "word": "doa",
+    "score": 1043,
+    "tags": ["f:0.108097"]
+  },
+  {
+    "word": "pun",
+    "score": 1043,
+    "tags": ["f:1.244434"]
+  },
+  {
+    "word": "rid",
+    "score": 1043,
+    "tags": ["f:10.089130"]
+  },
+  {
+    "word": "aha",
+    "score": 1042,
+    "tags": ["f:1.068997"]
+  },
+  {
+    "word": "soy",
+    "score": 1042,
+    "tags": ["f:1.832673"]
+  },
+  {
+    "word": "nic",
+    "score": 1042,
+    "tags": ["f:0.832095"]
+  },
+  {
+    "word": "ccd",
+    "score": 1041,
+    "tags": ["f:0.921193"]
+  },
+  {
+    "word": "cia",
+    "score": 1041,
+    "tags": ["f:4.851201"]
+  },
+  {
+    "word": "dts",
+    "score": 1041,
+    "tags": ["f:0.213281"]
+  },
+  {
+    "word": "ops",
+    "score": 1041,
+    "tags": ["f:0.852874"]
+  },
+  {
+    "word": "pew",
+    "score": 1041,
+    "tags": ["f:1.093728"]
+  },
+  {
+    "word": "pic",
+    "score": 1041,
+    "tags": ["f:1.275555"]
+  },
+  {
+    "word": "too",
+    "score": 1041,
+    "tags": ["f:342.277600"]
+  },
+  {
+    "word": "ski",
+    "score": 1040,
+    "tags": ["f:3.111986"]
+  },
+  {
+    "word": "nec",
+    "score": 1040,
+    "tags": ["f:1.523750"]
+  },
+  {
+    "word": "tri",
+    "score": 1040,
+    "tags": ["f:1.931578"]
+  },
+  {
+    "word": "fez",
+    "score": 1039,
+    "tags": ["f:0.455277"]
+  },
+  {
+    "word": "rbc",
+    "score": 1039,
+    "tags": ["f:0.651346"]
+  },
+  {
+    "word": "dug",
+    "score": 1039,
+    "tags": ["f:6.200446"]
+  },
+  {
+    "word": "tid",
+    "score": 1039,
+    "tags": ["f:0.366714"]
+  },
+  {
+    "word": "ami",
+    "score": 1038,
+    "tags": ["f:1.685777"]
+  },
+  {
+    "word": "ect",
+    "score": 1038,
+    "tags": ["f:1.189564"]
+  },
+  {
+    "word": "pes",
+    "score": 1038,
+    "tags": ["f:0.803701"]
+  },
+  {
+    "word": "sen",
+    "score": 1038,
+    "tags": ["f:3.822022"]
+  },
+  {
+    "word": "tlc",
+    "score": 1038,
+    "tags": ["f:0.700650"]
+  },
+  {
+    "word": "app",
+    "score": 1037,
+    "tags": ["f:3.946142"]
+  },
+  {
+    "word": "cdr",
+    "score": 1037,
+    "tags": ["f:0.454924"]
+  },
+  {
+    "word": "vac",
+    "score": 1037,
+    "tags": ["f:0.500735"]
+  },
+  {
+    "word": "pix",
+    "score": 1037,
+    "tags": ["f:0.243431"]
+  },
+  {
+    "word": "pom",
+    "score": 1037,
+    "tags": ["f:0.519049"]
+  },
+  {
+    "word": "eer",
+    "score": 1036,
+    "tags": ["f:0.107269"]
+  },
+  {
+    "word": "nad",
+    "score": 1036,
+    "tags": ["f:1.223908"]
+  },
+  {
+    "word": "dap",
+    "score": 1036,
+    "tags": ["f:0.367689"]
+  },
+  {
+    "word": "fap",
+    "score": 1036,
+    "tags": ["f:0.264709"]
+  },
+  {
+    "word": "fid",
+    "score": 1036,
+    "tags": ["f:0.422400"]
+  },
+  {
+    "word": "amt",
+    "score": 1035,
+    "tags": ["f:0.534714"]
+  },
+  {
+    "word": "das",
+    "score": 1035,
+    "tags": ["f:16.085867"]
+  },
+  {
+    "word": "dea",
+    "score": 1035,
+    "tags": ["f:0.909911"]
+  },
+  {
+    "word": "fra",
+    "score": 1035,
+    "tags": ["f:1.442350"]
+  },
+  {
+    "word": "sem",
+    "score": 1035,
+    "tags": ["f:2.258189"]
+  },
+  {
+    "word": "vol",
+    "score": 1035,
+    "tags": ["f:105.518141"]
+  },
+  {
+    "word": "ped",
+    "score": 1035,
+    "tags": ["f:0.240474"]
+  },
+  {
+    "word": "pol",
+    "score": 1035,
+    "tags": ["f:2.315111"]
+  },
+  {
+    "word": "prn",
+    "score": 1035,
+    "tags": ["f:0.214086"]
+  },
+  {
+    "word": "sig",
+    "score": 1035,
+    "tags": ["f:1.328715"]
+  },
+  {
+    "word": "cst",
+    "score": 1034,
+    "tags": ["f:0.292960"]
+  },
+  {
+    "word": "nov",
+    "score": 1034,
+    "tags": ["f:3.220261"]
+  },
+  {
+    "word": "tba",
+    "score": 1034,
+    "tags": ["f:0.115997"]
+  },
+  {
+    "word": "e.g",
+    "score": 1034,
+    "tags": ["f:0.210022"]
+  },
+  {
+    "word": "syn",
+    "score": 1034,
+    "tags": ["f:1.097402"]
+  },
+  {
+    "word": "ach",
+    "score": 1033,
+    "tags": ["f:1.584109"]
+  },
+  {
+    "word": "avi",
+    "score": 1033,
+    "tags": ["f:0.508877"]
+  },
+  {
+    "word": "ros",
+    "score": 1033,
+    "tags": ["f:0.741883"]
+  },
+  {
+    "word": "sed",
+    "score": 1033,
+    "tags": ["f:2.973695"]
+  },
+  {
+    "word": "dop",
+    "score": 1033,
+    "tags": ["f:0.163327"]
+  },
+  {
+    "word": "dac",
+    "score": 1032,
+    "tags": ["f:0.616324"]
+  },
+  {
+    "word": "noc",
+    "score": 1032,
+    "tags": ["f:0.199110"]
+  },
+  {
+    "word": "oid",
+    "score": 1032,
+    "tags": ["f:0.189668"]
+  },
+  {
+    "word": "ora",
+    "score": 1032,
+    "tags": ["f:0.704919"]
+  },
+  {
+    "word": "phi",
+    "score": 1032,
+    "tags": ["f:1.975297"]
+  },
+  {
+    "word": "pia",
+    "score": 1032,
+    "tags": ["f:0.762955"]
+  },
+  {
+    "word": "thc",
+    "score": 1032,
+    "tags": ["f:0.646447"]
+  },
+  {
+    "word": "oca",
+    "score": 1032,
+    "tags": ["f:0.202190"]
+  },
+  {
+    "word": "ter",
+    "score": 1032,
+    "tags": ["f:2.325160"]
+  },
+  {
+    "word": "til",
+    "score": 1032,
+    "tags": ["f:2.152735"]
+  },
+  {
+    "word": "adh",
+    "score": 1031,
+    "tags": ["f:0.787825"]
+  },
+  {
+    "word": "aar",
+    "score": 1031,
+    "tags": ["f:0.227309"]
+  },
+  {
+    "word": "nrc",
+    "score": 1031,
+    "tags": ["f:0.769734"]
+  },
+  {
+    "word": "vox",
+    "score": 1031,
+    "tags": ["f:0.494496"]
+  },
+  {
+    "word": "dob",
+    "score": 1031,
+    "tags": ["f:0.154844"]
+  },
+  {
+    "word": "ort",
+    "score": 1031,
+    "tags": ["f:0.377682"]
+  },
+  {
+    "word": "png",
+    "score": 1031,
+    "tags": ["f:0.473547"]
+  },
+  {
+    "word": "ava",
+    "score": 1030,
+    "tags": ["f:0.807181"]
+  },
+  {
+    "word": "dwi",
+    "score": 1030,
+    "tags": ["f:0.120873"]
+  },
+  {
+    "word": "dow",
+    "score": 1030,
+    "tags": ["f:2.128833"]
+  },
+  {
+    "word": "fha",
+    "score": 1030,
+    "tags": ["f:0.568769"]
+  },
+  {
+    "word": "pcs",
+    "score": 1030,
+    "tags": ["f:1.802016"]
+  },
+  {
+    "word": "plo",
+    "score": 1030,
+    "tags": ["f:1.543332"]
+  },
+  {
+    "word": "pul",
+    "score": 1030,
+    "tags": ["f:0.197116"]
+  },
+  {
+    "word": "coe",
+    "score": 1030,
+    "tags": ["f:0.774185"]
+  },
+  {
+    "word": "fud",
+    "score": 1030,
+    "tags": ["f:0.028560"]
+  },
+  {
+    "word": "goy",
+    "score": 1030,
+    "tags": ["f:0.123228"]
+  },
+  {
+    "word": "oss",
+    "score": 1030,
+    "tags": ["f:0.806028"]
+  },
+  {
+    "word": "cjd",
+    "score": 1029,
+    "tags": ["f:0.160643"]
+  },
+  {
+    "word": "cru",
+    "score": 1029,
+    "tags": ["f:0.222057"]
+  },
+  {
+    "word": "edo",
+    "score": 1029,
+    "tags": ["f:1.008511"]
+  },
+  {
+    "word": "esq",
+    "score": 1029,
+    "tags": ["f:2.120274"]
+  },
+  {
+    "word": "dst",
+    "score": 1029,
+    "tags": ["f:0.249381"]
+  },
+  {
+    "word": "een",
+    "score": 1029,
+    "tags": ["f:1.686804"]
+  },
+  {
+    "word": "goa",
+    "score": 1029,
+    "tags": ["f:1.360665"]
+  },
+  {
+    "word": "nef",
+    "score": 1029,
+    "tags": ["f:0.210974"]
+  },
+  {
+    "word": "rit",
+    "score": 1029,
+    "tags": ["f:0.212555"]
+  },
+  {
+    "word": "tho",
+    "score": 1029,
+    "tags": ["f:1.700491"]
+  },
+  {
+    "word": "tux",
+    "score": 1029,
+    "tags": ["f:0.121154"]
+  },
+  {
+    "word": "acs",
+    "score": 1028,
+    "tags": ["f:1.001958"]
+  },
+  {
+    "word": "anc",
+    "score": 1028,
+    "tags": ["f:1.582203"]
+  },
+  {
+    "word": "arg",
+    "score": 1028,
+    "tags": ["f:0.655572"]
+  },
+  {
+    "word": "cbt",
+    "score": 1028,
+    "tags": ["f:0.567944"]
+  },
+  {
+    "word": "eds",
+    "score": 1028,
+    "tags": ["f:39.024743"]
+  },
+  {
+    "word": "feb",
+    "score": 1028,
+    "tags": ["f:2.603485"]
+  },
+  {
+    "word": "fri",
+    "score": 1028,
+    "tags": ["f:0.786430"]
+  },
+  {
+    "word": "pwr",
+    "score": 1028,
+    "tags": ["f:0.162764"]
+  },
+  {
+    "word": "tse",
+    "score": 1028,
+    "tags": ["f:1.659686"]
+  },
+  {
+    "word": "adj",
+    "score": 1028,
+    "tags": ["f:1.292790"]
+  },
+  {
+    "word": "deg",
+    "score": 1028,
+    "tags": ["f:1.413005"]
+  },
+  {
+    "word": "eid",
+    "score": 1028,
+    "tags": ["f:0.177601"]
+  },
+  {
+    "word": "ods",
+    "score": 1028,
+    "tags": ["f:0.254728"]
+  },
+  {
+    "word": "re-",
+    "score": 1028,
+    "tags": ["f:0.000000"]
+  },
+  {
+    "word": "val",
+    "score": 1028,
+    "tags": ["f:2.323328"]
+  },
+  {
+    "word": "aed",
+    "score": 1027,
+    "tags": ["f:0.222136"]
+  },
+  {
+    "word": "csr",
+    "score": 1027,
+    "tags": ["f:0.462685"]
+  },
+  {
+    "word": "dak",
+    "score": 1027,
+    "tags": ["f:0.308376"]
+  },
+  {
+    "word": "ers",
+    "score": 1027,
+    "tags": ["f:1.025290"]
+  },
+  {
+    "word": "fer",
+    "score": 1027,
+    "tags": ["f:1.497794"]
+  },
+  {
+    "word": "ntp",
+    "score": 1027,
+    "tags": ["f:0.206372"]
+  },
+  {
+    "word": "ose",
+    "score": 1027,
+    "tags": ["f:0.198392"]
+  },
+  {
+    "word": "rdf",
+    "score": 1027,
+    "tags": ["f:0.415617"]
+  },
+  {
+    "word": "ser",
+    "score": 1027,
+    "tags": ["f:5.779727"]
+  },
+  {
+    "word": "sti",
+    "score": 1027,
+    "tags": ["f:0.371439"]
+  },
+  {
+    "word": "tas",
+    "score": 1027,
+    "tags": ["f:0.596568"]
+  },
+  {
+    "word": "vad",
+    "score": 1027,
+    "tags": ["f:0.237429"]
+  },
+  {
+    "word": "aux",
+    "score": 1027,
+    "tags": ["f:3.581251"]
+  },
+  {
+    "word": "div",
+    "score": 1027,
+    "tags": ["f:2.355270"]
+  },
+  {
+    "word": "aec",
+    "score": 1026,
+    "tags": ["f:0.810911"]
+  },
+  {
+    "word": "asd",
+    "score": 1026,
+    "tags": ["f:0.424952"]
+  },
+  {
+    "word": "esl",
+    "score": 1026,
+    "tags": ["f:0.776690"]
+  },
+  {
+    "word": "ott",
+    "score": 1026,
+    "tags": ["f:0.542448"]
+  },
+  {
+    "word": "rio",
+    "score": 1026,
+    "tags": ["f:8.716791"]
+  },
+  {
+    "word": "slr",
+    "score": 1026,
+    "tags": ["f:0.255243"]
+  },
+  {
+    "word": "soe",
+    "score": 1026,
+    "tags": ["f:0.719649"]
+  },
+  {
+    "word": "dah",
+    "score": 1026,
+    "tags": ["f:0.217336"]
+  },
+  {
+    "word": "fwd",
+    "score": 1026,
+    "tags": ["f:0.078379"]
+  },
+  {
+    "word": "tum",
+    "score": 1026,
+    "tags": ["f:0.637254"]
+  },
+  {
+    "word": "adv",
+    "score": 1025,
+    "tags": ["f:2.088682"]
+  },
+  {
+    "word": "avo",
+    "score": 1025,
+    "tags": ["f:0.088598"]
+  },
+  {
+    "word": "cbi",
+    "score": 1025,
+    "tags": ["f:0.436166"]
+  },
+  {
+    "word": "cbs",
+    "score": 1025,
+    "tags": ["f:2.458519"]
+  },
+  {
+    "word": "cel",
+    "score": 1025,
+    "tags": ["f:0.223092"]
+  },
+  {
+    "word": "chf",
+    "score": 1025,
+    "tags": ["f:0.532431"]
+  },
+  {
+    "word": "cwm",
+    "score": 1025,
+    "tags": ["f:0.144078"]
+  },
+  {
+    "word": "eth",
+    "score": 1025,
+    "tags": ["f:0.395722"]
+  },
+  {
+    "word": "npc",
+    "score": 1025,
+    "tags": ["f:0.533989"]
+  },
+  {
+    "word": "nsa",
+    "score": 1025,
+    "tags": ["f:0.500672"]
+  },
+  {
+    "word": "sth",
+    "score": 1025,
+    "tags": ["f:0.322781"]
+  },
+  {
+    "word": "fam",
+    "score": 1025,
+    "tags": ["f:0.869372"]
+  },
+  {
+    "word": "pel",
+    "score": 1025,
+    "tags": ["f:0.500351"]
+  },
+  {
+    "word": "roy",
+    "score": 1025,
+    "tags": ["f:10.515271"]
+  },
+  {
+    "word": "sai",
+    "score": 1025,
+    "tags": ["f:0.908532"]
+  },
+  {
+    "word": "seg",
+    "score": 1025,
+    "tags": ["f:0.317965"]
+  },
+  {
+    "word": "sym",
+    "score": 1025,
+    "tags": ["f:0.340774"]
+  },
+  {
+    "word": "afb",
+    "score": 1024,
+    "tags": ["f:0.415776"]
+  },
+  {
+    "word": "aud",
+    "score": 1024,
+    "tags": ["f:0.331478"]
+  },
+  {
+    "word": "aer",
+    "score": 1024,
+    "tags": ["f:0.304032"]
+  },
+  {
+    "word": "diy",
+    "score": 1024,
+    "tags": ["f:0.138211"]
+  },
+  {
+    "word": "spc",
+    "score": 1024,
+    "tags": ["f:0.444610"]
+  },
+  {
+    "word": "ssr",
+    "score": 1024,
+    "tags": ["f:0.636671"]
+  },
+  {
+    "word": "tis",
+    "score": 1024,
+    "tags": ["f:4.694442"]
+  },
+  {
+    "word": "tay",
+    "score": 1024,
+    "tags": ["f:0.768969"]
+  },
+  {
+    "word": "amb",
+    "score": 1024,
+    "tags": ["f:0.266180"]
+  },
+  {
+    "word": "rei",
+    "score": 1024,
+    "tags": ["f:0.618762"]
+  },
+  {
+    "word": "tig",
+    "score": 1024,
+    "tags": ["f:0.237889"]
+  },
+  {
+    "word": "aap",
+    "score": 1023,
+    "tags": ["f:0.209773"]
+  },
+  {
+    "word": "ais",
+    "score": 1023,
+    "tags": ["f:0.476492"]
+  },
+  {
+    "word": "cdf",
+    "score": 1023,
+    "tags": ["f:0.330408"]
+  },
+  {
+    "word": "csm",
+    "score": 1023,
+    "tags": ["f:0.294744"]
+  },
+  {
+    "word": "dmt",
+    "score": 1023,
+    "tags": ["f:0.155522"]
+  },
+  {
+    "word": "ean",
+    "score": 1023,
+    "tags": ["f:0.140261"]
+  },
+  {
+    "word": "noh",
+    "score": 1023,
+    "tags": ["f:0.380822"]
+  },
+  {
+    "word": "rle",
+    "score": 1023,
+    "tags": ["f:0.080611"]
+  },
+  {
+    "word": "tsa",
+    "score": 1023,
+    "tags": ["f:0.346169"]
+  },
+  {
+    "word": "toc",
+    "score": 1023,
+    "tags": ["f:0.388872"]
+  },
+  {
+    "word": "twa",
+    "score": 1023,
+    "tags": ["f:0.518902"]
+  },
+  {
+    "word": "sug",
+    "score": 1023,
+    "tags": ["f:0.192993"]
+  },
+  {
+    "word": "cen",
+    "score": 1022,
+    "tags": ["f:0.731430"]
+  },
+  {
+    "word": "cnn",
+    "score": 1022,
+    "tags": ["f:0.872852"]
+  },
+  {
+    "word": "crf",
+    "score": 1022,
+    "tags": ["f:0.523187"]
+  },
+  {
+    "word": "eas",
+    "score": 1022,
+    "tags": ["f:0.381012"]
+  },
+  {
+    "word": "foh",
+    "score": 1022,
+    "tags": ["f:0.071442"]
+  },
+  {
+    "word": "nye",
+    "score": 1022,
+    "tags": ["f:1.029072"]
+  },
+  {
+    "word": "pio",
+    "score": 1022,
+    "tags": ["f:0.481708"]
+  },
+  {
+    "word": "sds",
+    "score": 1022,
+    "tags": ["f:1.715178"]
+  },
+  {
+    "word": "shh",
+    "score": 1022,
+    "tags": ["f:0.245758"]
+  },
+  {
+    "word": "dha",
+    "score": 1022,
+    "tags": ["f:0.352689"]
+  },
+  {
+    "word": "dup",
+    "score": 1022,
+    "tags": ["f:0.175853"]
+  },
+  {
+    "word": "oof",
+    "score": 1022,
+    "tags": ["f:0.068822"]
+  },
+  {
+    "word": "oxo",
+    "score": 1022,
+    "tags": ["f:0.179528"]
+  },
+  {
+    "word": "pov",
+    "score": 1022,
+    "tags": ["f:0.138996"]
+  },
+  {
+    "word": "clp",
+    "score": 1021,
+    "tags": ["f:0.193620"]
+  },
+  {
+    "word": "dle",
+    "score": 1021,
+    "tags": ["f:0.101747"]
+  },
+  {
+    "word": "dix",
+    "score": 1021,
+    "tags": ["f:0.998621"]
+  },
+  {
+    "word": "gtt",
+    "score": 1021,
+    "tags": ["f:0.096086"]
+  },
+  {
+    "word": "gro",
+    "score": 1021,
+    "tags": ["f:0.231769"]
+  },
+  {
+    "word": "ors",
+    "score": 1021,
+    "tags": ["f:0.322306"]
+  },
+  {
+    "word": "psp",
+    "score": 1021,
+    "tags": ["f:0.483948"]
+  },
+  {
+    "word": "pwa",
+    "score": 1021,
+    "tags": ["f:0.187234"]
+  },
+  {
+    "word": "seo",
+    "score": 1021,
+    "tags": ["f:0.235760"]
+  },
+  {
+    "word": "trh",
+    "score": 1021,
+    "tags": ["f:0.509385"]
+  },
+  {
+    "word": "tro",
+    "score": 1021,
+    "tags": ["f:0.192300"]
+  },
+  {
+    "word": "trf",
+    "score": 1021,
+    "tags": ["f:0.128456"]
+  },
+  {
+    "word": "vid",
+    "score": 1021,
+    "tags": ["f:0.490385"]
+  },
+  {
+    "word": "vug",
+    "score": 1021,
+    "tags": ["f:0.012804"]
+  },
+  {
+    "word": "aos",
+    "score": 1020,
+    "tags": ["f:0.208564"]
+  },
+  {
+    "word": "cna",
+    "score": 1020,
+    "tags": ["f:0.155237"]
+  },
+  {
+    "word": "dev",
+    "score": 1020,
+    "tags": ["f:3.218145"]
+  },
+  {
+    "word": "eot",
+    "score": 1020,
+    "tags": ["f:0.128163"]
+  },
+  {
+    "word": "exp",
+    "score": 1020,
+    "tags": ["f:9.508493"]
+  },
+  {
+    "word": "ote",
+    "score": 1020,
+    "tags": ["f:0.119220"]
+  },
+  {
+    "word": "pim",
+    "score": 1020,
+    "tags": ["f:0.279947"]
+  },
+  {
+    "word": "ppe",
+    "score": 1020,
+    "tags": ["f:0.207822"]
+  },
+  {
+    "word": "ppl",
+    "score": 1020,
+    "tags": ["f:0.157607"]
+  },
+  {
+    "word": "psk",
+    "score": 1020,
+    "tags": ["f:0.156017"]
+  },
+  {
+    "word": "rud",
+    "score": 1020,
+    "tags": ["f:0.137042"]
+  },
+  {
+    "word": "tif",
+    "score": 1020,
+    "tags": ["f:0.104086"]
+  },
+  {
+    "word": "tko",
+    "score": 1020,
+    "tags": ["f:0.025461"]
+  },
+  {
+    "word": "v-1",
+    "score": 1020,
+    "tags": ["f:0.000000"]
+  },
+  {
+    "word": "cig",
+    "score": 1020,
+    "tags": ["f:0.089578"]
+  },
+  {
+    "word": "en-",
+    "score": 1020,
+    "tags": ["f:0.000000"]
+  },
+  {
+    "word": "pkg",
+    "score": 1020,
+    "tags": ["f:0.091698"]
+  },
+  {
+    "word": "aih",
+    "score": 1019,
+    "tags": ["f:0.077761"]
+  },
+  {
+    "word": "alm",
+    "score": 1019,
+    "tags": ["f:0.126882"]
+  },
+  {
+    "word": "ary",
+    "score": 1019,
+    "tags": ["f:0.486750"]
+  },
+  {
+    "word": "cin",
+    "score": 1019,
+    "tags": ["f:0.388238"]
+  },
+  {
+    "word": "cle",
+    "score": 1019,
+    "tags": ["f:0.325572"]
+  },
+  {
+    "word": "cuz",
+    "score": 1019,
+    "tags": ["f:0.136487"]
+  },
+  {
+    "word": "eeo",
+    "score": 1019,
+    "tags": ["f:0.158206"]
+  },
+  {
+    "word": "fos",
+    "score": 1019,
+    "tags": ["f:0.763217"]
+  },
+  {
+    "word": "och",
+    "score": 1019,
+    "tags": ["f:2.149152"]
+  },
+  {
+    "word": "ons",
+    "score": 1019,
+    "tags": ["f:0.922778"]
+  },
+  {
+    "word": "orr",
+    "score": 1019,
+    "tags": ["f:0.926500"]
+  },
+  {
+    "word": "ric",
+    "score": 1019,
+    "tags": ["f:0.428932"]
+  },
+  {
+    "word": "sco",
+    "score": 1019,
+    "tags": ["f:0.302006"]
+  },
+  {
+    "word": "tek",
+    "score": 1019,
+    "tags": ["f:0.223627"]
+  },
+  {
+    "word": "afr",
+    "score": 1018,
+    "tags": ["f:0.465405"]
+  },
+  {
+    "word": "cet",
+    "score": 1018,
+    "tags": ["f:0.623729"]
+  },
+  {
+    "word": "efa",
+    "score": 1018,
+    "tags": ["f:0.212956"]
+  },
+  {
+    "word": "oba",
+    "score": 1018,
+    "tags": ["f:0.351397"]
+  },
+  {
+    "word": "pdp",
+    "score": 1018,
+    "tags": ["f:0.400308"]
+  },
+  {
+    "word": "trp",
+    "score": 1018,
+    "tags": ["f:0.369057"]
+  },
+  {
+    "word": "twi",
+    "score": 1018,
+    "tags": ["f:0.136293"]
+  },
+  {
+    "word": "ctn",
+    "score": 1018,
+    "tags": ["f:0.035882"]
+  },
+  {
+    "word": "dbl",
+    "score": 1018,
+    "tags": ["f:0.060835"]
+  },
+  {
+    "word": "dek",
+    "score": 1018,
+    "tags": ["f:0.041717"]
+  },
+  {
+    "word": "cdp",
+    "score": 1017,
+    "tags": ["f:0.259524"]
+  },
+  {
+    "word": "fol",
+    "score": 1017,
+    "tags": ["f:3.057220"]
+  },
+  {
+    "word": "gcc",
+    "score": 1017,
+    "tags": ["f:0.369437"]
+  },
+  {
+    "word": "nrl",
+    "score": 1017,
+    "tags": ["f:0.128805"]
+  },
+  {
+    "word": "oau",
+    "score": 1017,
+    "tags": ["f:0.592993"]
+  },
+  {
+    "word": "sog",
+    "score": 1017,
+    "tags": ["f:0.168659"]
+  },
+  {
+    "word": "ssd",
+    "score": 1017,
+    "tags": ["f:0.178862"]
+  },
+  {
+    "word": "sys",
+    "score": 1017,
+    "tags": ["f:0.870973"]
+  },
+  {
+    "word": "tpc",
+    "score": 1017,
+    "tags": ["f:0.138088"]
+  },
+  {
+    "word": "doo",
+    "score": 1017,
+    "tags": ["f:0.450001"]
+  },
+  {
+    "word": "exc",
+    "score": 1017,
+    "tags": ["f:0.167576"]
+  },
+  {
+    "word": "pvp",
+    "score": 1017,
+    "tags": ["f:0.194468"]
+  },
+  {
+    "word": "ruc",
+    "score": 1017,
+    "tags": ["f:0.231249"]
+  },
+  {
+    "word": "tef",
+    "score": 1017,
+    "tags": ["f:0.086125"]
+  },
+  {
+    "word": "vii",
+    "score": 1017,
+    "tags": ["f:20.466138"]
+  },
+  {
+    "word": "cpb",
+    "score": 1016,
+    "tags": ["f:0.330697"]
+  },
+  {
+    "word": "nek",
+    "score": 1016,
+    "tags": ["f:0.106282"]
+  },
+  {
+    "word": "nin",
+    "score": 1016,
+    "tags": ["f:0.453136"]
+  },
+  {
+    "word": "nyx",
+    "score": 1016,
+    "tags": ["f:0.023907"]
+  },
+  {
+    "word": "pss",
+    "score": 1016,
+    "tags": ["f:0.447904"]
+  },
+  {
+    "word": "soa",
+    "score": 1016,
+    "tags": ["f:0.444951"]
+  },
+  {
+    "word": "erk",
+    "score": 1016,
+    "tags": ["f:0.156196"]
+  },
+  {
+    "word": "fel",
+    "score": 1016,
+    "tags": ["f:0.225847"]
+  },
+  {
+    "word": "piu",
+    "score": 1016,
+    "tags": ["f:0.469904"]
+  },
+  {
+    "word": "sav",
+    "score": 1016,
+    "tags": ["f:0.290590"]
+  },
+  {
+    "word": "vom",
+    "score": 1016,
+    "tags": ["f:2.219179"]
+  },
+  {
+    "word": "aip",
+    "score": 1015,
+    "tags": ["f:0.258783"]
+  },
+  {
+    "word": "cem",
+    "score": 1015,
+    "tags": ["f:0.313517"]
+  },
+  {
+    "word": "clc",
+    "score": 1015,
+    "tags": ["f:0.834901"]
+  },
+  {
+    "word": "dei",
+    "score": 1015,
+    "tags": ["f:3.486695"]
+  },
+  {
+    "word": "nao",
+    "score": 1015,
+    "tags": ["f:0.463557"]
+  },
+  {
+    "word": "ome",
+    "score": 1015,
+    "tags": ["f:0.361192"]
+  },
+  {
+    "word": "ooo",
+    "score": 1015,
+    "tags": ["f:2.811446"]
+  },
+  {
+    "word": "rns",
+    "score": 1015,
+    "tags": ["f:0.216321"]
+  },
+  {
+    "word": "rpf",
+    "score": 1015,
+    "tags": ["f:0.195007"]
+  },
+  {
+    "word": "rst",
+    "score": 1015,
+    "tags": ["f:0.288969"]
+  },
+  {
+    "word": "tgv",
+    "score": 1015,
+    "tags": ["f:0.065504"]
+  },
+  {
+    "word": "oon",
+    "score": 1015,
+    "tags": ["f:0.111883"]
+  },
+  {
+    "word": "agn",
+    "score": 1014,
+    "tags": ["f:0.435940"]
+  },
+  {
+    "word": "ari",
+    "score": 1014,
+    "tags": ["f:0.769769"]
+  },
+  {
+    "word": "eai",
+    "score": 1014,
+    "tags": ["f:0.121349"]
+  },
+  {
+    "word": "eet",
+    "score": 1014,
+    "tags": ["f:0.137549"]
+  },
+  {
+    "word": "eri",
+    "score": 1014,
+    "tags": ["f:0.170514"]
+  },
+  {
+    "word": "fld",
+    "score": 1014,
+    "tags": ["f:0.051908"]
+  },
+  {
+    "word": "fnc",
+    "score": 1014,
+    "tags": ["f:0.029603"]
+  },
+  {
+    "word": "fst",
+    "score": 1014,
+    "tags": ["f:0.089605"]
+  },
+  {
+    "word": "gru",
+    "score": 1014,
+    "tags": ["f:0.118566"]
+  },
+  {
+    "word": "gau",
+    "score": 1014,
+    "tags": ["f:0.160921"]
+  },
+  {
+    "word": "grn",
+    "score": 1014,
+    "tags": ["f:0.035216"]
+  },
+  {
+    "word": "gus",
+    "score": 1014,
+    "tags": ["f:1.620867"]
+  },
+  {
+    "word": "nai",
+    "score": 1014,
+    "tags": ["f:0.699365"]
+  },
+  {
+    "word": "nca",
+    "score": 1014,
+    "tags": ["f:0.216198"]
+  },
+  {
+    "word": "nie",
+    "score": 1014,
+    "tags": ["f:0.848953"]
+  },
+  {
+    "word": "oea",
+    "score": 1014,
+    "tags": ["f:0.073547"]
+  },
+  {
+    "word": "plu",
+    "score": 1014,
+    "tags": ["f:0.095745"]
+  },
+  {
+    "word": "rsm",
+    "score": 1014,
+    "tags": ["f:0.110468"]
+  },
+  {
+    "word": "tch",
+    "score": 1014,
+    "tags": ["f:0.112473"]
+  },
+  {
+    "word": "dro",
+    "score": 1014,
+    "tags": ["f:0.128167"]
+  },
+  {
+    "word": "gpl",
+    "score": 1014,
+    "tags": ["f:0.108398"]
+  },
+  {
+    "word": "oul",
+    "score": 1014,
+    "tags": ["f:0.096475"]
+  },
+  {
+    "word": "owt",
+    "score": 1014,
+    "tags": ["f:0.046101"]
+  },
+  {
+    "word": "rin",
+    "score": 1014,
+    "tags": ["f:0.348079"]
+  },
+  {
+    "word": "sto",
+    "score": 1014,
+    "tags": ["f:0.404011"]
+  },
+  {
+    "word": "stu",
+    "score": 1014,
+    "tags": ["f:0.554114"]
+  },
+  {
+    "word": "txt",
+    "score": 1014,
+    "tags": ["f:0.188383"]
+  },
+  {
+    "word": "aph",
+    "score": 1013,
+    "tags": ["f:0.142599"]
+  },
+  {
+    "word": "ath",
+    "score": 1013,
+    "tags": ["f:0.352594"]
+  },
+  {
+    "word": "ees",
+    "score": 1013,
+    "tags": ["f:0.224975"]
+  },
+  {
+    "word": "eln",
+    "score": 1013,
+    "tags": ["f:0.094798"]
+  },
+  {
+    "word": "gda",
+    "score": 1013,
+    "tags": ["f:0.041499"]
+  },
+  {
+    "word": "neu",
+    "score": 1013,
+    "tags": ["f:0.788983"]
+  },
+  {
+    "word": "nmt",
+    "score": 1013,
+    "tags": ["f:0.058786"]
+  },
+  {
+    "word": "ori",
+    "score": 1013,
+    "tags": ["f:0.328315"]
+  },
+  {
+    "word": "oti",
+    "score": 1013,
+    "tags": ["f:0.101846"]
+  }
+]

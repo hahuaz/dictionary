@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* load font from local fonts directory format is ttf.
+      Jura-VariableFont_wght.ttf
+         */
+      @font-face {
+        font-family: "Baloo";
+        src: url("./fonts/Baloo_2/Baloo2-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      /* load other font weights */
+      @font-face {
+        font-family: "Baloo";
+        src: url("./fonts/Baloo_2/Baloo2-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Baloo";
+        src: url("./fonts/Baloo_2/Baloo2-SemiBold.ttf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Baloo";
+        src: url("./fonts/Baloo_2/Baloo2-Medium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "customarial";
+        src: url("./fonts/arial.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        font-size: 16px;
+      }
+
+      .container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        padding: 1.5rem 2rem;
+
+        font-family: "Baloo", sans-serif;
+
+        color: #323232;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        /* gap: 2rem; */
+        /* horizontal alignment for children elements */
+
+        .word {
+          font-size: 7rem;
+          letter-spacing: -0.25rem;
+          line-height: 0.7;
+          font-weight: 600;
+          padding: 1.5rem 0.9rem;
+          border-radius: 2rem;
+        }
+        .definition {
+          font-size: 4rem;
+          letter-spacing: -0.2rem;
+          line-height: 4.3rem;
+          text-align: center;
+        }
+        .img {
+          width: 100%;
+          height: 50rem;
+          background-image: url("./1.png");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-top: 1rem;
+        }
+
+        .mark {
+          color: #767676;
+          font-size: 2.5rem;
+          letter-spacing: 0.1rem;
+        }
+
+        .word1 {
+          background-color: #fffb008e;
+        }
+        .word2 {
+          background-color: #ff000046;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <p class="word word1">document</p>
+      <div class="img"></div>
+      <p class="word word2">document</p>
+      <p class="mark">english.aliving.app</p>
+    </div>
+  </body>
+</html>

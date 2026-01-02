@@ -1,0 +1,36 @@
+I will give you a word, and you will provide a JSON array containing the word, its definitions, parts of speech, and example sentences for each definition. The JSON should be structured as below.
+- Give only one example sentence per definition.
+- don't include phrasel verbs or idioms.
+
+---
+[
+  {
+    "word": "light",
+    "definitions": [
+      {
+        "definition": "The natural agent that stimulates sight and makes things visible",
+        "partOfSpeech": "noun",
+        "sentences": [
+          "The light from the sun is essential for life on Earth."
+        ]
+      },
+      {
+        "definition": "To make something start to burn",
+        "partOfSpeech": "verb",
+        "sentences": [
+          "He used a match to light the candle."
+        ]
+      },
+      {
+        "definition": "Having little weight; not heavy",
+        "partOfSpeech": "adjective",
+        "sentences": [
+          "This bag is very light, making it easy to carry."
+        ]
+      }
+    ]
+  }
+]
+
+---
+are you ready?

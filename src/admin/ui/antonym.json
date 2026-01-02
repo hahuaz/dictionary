@@ -1,0 +1,23 @@
+[
+  ["old", "young"],
+  ["happy", "sad"],
+  ["strong", "weak"],
+  ["easy", "difficult"],
+  ["tall", "short"],
+  ["come", "go"],
+  ["give", "take"],
+  ["buy", "sell"],
+  ["win", "lose"],
+  ["start", "stop"],
+  ["build", "destroy"],
+  ["laugh", "cry"],
+  ["rise", "fall"],
+  ["open", "close"],
+  ["remember", "forget"],
+  ["day", "night"],
+  ["life", "death"],
+  ["friend", "enemy"],
+  ["love", "hate"],
+  ["war", "peace"],
+  ["success", "failure"]
+]

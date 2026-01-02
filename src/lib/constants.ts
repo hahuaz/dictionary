@@ -2,7 +2,8 @@ import path from "path";
 
 export const LOCAL_SAVE_DIR = path.join(process.cwd(), "local-save");
 
-export const LOCAL_MNT_DICTIONARY = path.join("/mnt/d/assets/dictionary/");
+// D:\assets\dictionary\words
+export const LOCAL_MNT_DICTIONARY = path.join("D:\\assets\\dictionary\\words");
 
 export const PATH_ALL_SENTENCES = path.join(
   LOCAL_SAVE_DIR,
