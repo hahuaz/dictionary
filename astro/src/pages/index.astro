@@ -1,0 +1,182 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import { Search, Volume2 } from "lucide-react";
+import CheckIcon from "../components/CheckIcon.astro";
+// import DefList from "@/components/DefList";
+// import { buildDefListProps, getAllWords, getWordDetails } from "@/lib";
+import { SITE_NAME } from "../lib/constants";
+import "./index.scss";
+import DefList from "../components/DefList.astro";
+---
+
+<Layout>
+  <main>
+    {/* SECTION 1 */}
+    <section class="landing-section home-hero">
+      <div class="content container-lg">
+        <div class="header">
+          <h1 class="title-lg">Read, Hear & Learn in Sentence</h1>
+          <p class="subtitle-lg">
+            Experience words in context with audio-supported examples.
+          </p>
+        </div>
+        <div class="feature-wrapper">
+          <div class="feature-list">
+            <div class="feature-card">
+              <Volume2 />
+              <h3 class="feature-title">Listen Examples</h3>
+              <p class="feature-desc">
+                Hear how words are pronounced in whole sentences
+              </p>
+            </div>
+            <div class="feature-card">
+              <Search />
+              <h3 class="feature-title">Search Words</h3>
+              <p class="feature-desc">
+                Instantly find example sentences for any word
+              </p>
+            </div>
+            <div class="feature-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon-primary"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path d="M12 8V4H8"></path>
+                <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+                <path d="M2 14h2"></path>
+                <path d="M20 14h2"></path>
+                <path d="M15 13v2"></path>
+                <path d="M9 13v2"></path>
+              </svg>
+              <h3 class="feature-title">Multiple Meanings</h3>
+              <p class="feature-desc">See how words change meaning</p>
+            </div>
+          </div>
+          <div>
+            <a href="/letter/a">
+              <button class="btn">Explore All Words</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* SECTION 2 */}
+    <section class="how-it-works">
+      <div class="container-lg">
+        <div class="how-grid">
+          <div class="how-text">
+            <div class="badge-muted">How it works</div>
+            <h2 class="how-title">Hear words in context</h2>
+            <p class="how-description">
+              Search for any word and we'll show you multiple example sentences
+              with audio playback so you can hear how it's used.
+              <br />
+              Repeat the audio as many times as you need to gain confidence in your
+              pronunciation.
+            </p>
+          </div>
+          <div class="how-list">
+            <DefList word={"ability"} />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* SECTION 3 */}
+    <section class="mission">
+      <div class="container-lg">
+        <div class="mission-grid">
+          <div class="mission-col">
+            <div class="badge-muted">Our Mission</div>
+            <h2 class="heading-xl">
+              Education should be accessible by everyone
+            </h2>
+            <p class="text-lg-muted">
+              We believe that language learning resources should be available to
+              all, regardless of background or circumstance. That's why we've
+              created a platform that's free to use, with no barriers to entry.
+            </p>
+            <ul class="check-list">
+              <li>
+                <CheckIcon />
+                <span>No subscription required</span>
+              </li>
+              <li>
+                <CheckIcon />
+                <span>Available on any device</span>
+              </li>
+
+              <li>
+                <CheckIcon />
+                <span>Designed for all learning levels</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mission-col">
+            <div class="badge-muted">Our Approach</div>
+            <h2 class="heading-xl">Education should be effective</h2>
+            <p class="text-lg-muted">
+              Learning words in isolation isn't enough. Our approach focuses on
+              context and real-world usage, helping you understand not just what
+              words mean, but how they're actually used.
+            </p>
+            <ul class="check-list">
+              <li>
+                <CheckIcon />
+                <span>Learn through authentic examples</span>
+              </li>
+              <li>
+                <CheckIcon />
+                <span> Hear proper pronunciation</span>
+              </li>
+              <li>
+                <CheckIcon />
+                <span>Understand nuance and context</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="center-cta">
+          <a href="/word/ability">
+            <button class="btn">See an example</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {/* SECTION 4 */}
+    <section class="start-learning">
+      <div class="container">
+        <div class="start-content">
+          <div>
+            <h2 class="heading-xl">Start learning today</h2>
+            <p class="text-lg-muted">
+              Expand your vocabulary by hearing words used in real sentences
+            </p>
+          </div>
+
+          <div class="categories">
+            <h3 class="category-title">Popular Categories</h3>
+            <div class="category-grid">
+              <button class="btn__outline">🎓 Academic</button>
+              <button class="btn__outline">💼 Business</button>
+              <button class="btn__outline">🗣️ Conversation</button>
+              <button class="btn__outline">📚 Literature</button>
+              <button class="btn__outline">🔬 Science</button>
+              <button class="btn__outline">🎭 Arts</button>
+              <button class="btn__outline">🌐 Technology</button>
+              <button class="btn__outline">✈️ Travel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

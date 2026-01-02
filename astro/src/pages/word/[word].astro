@@ -1,0 +1,49 @@
+---
+import {
+  getWordDetails,
+  getTitleForWord,
+  getAllWords,
+  buildDefListProps,
+} from "../../lib";
+import Layout from "../../layouts/Layout.astro";
+import DefListAstro from "../../components/DefList.astro";
+export async function getStaticPaths() {
+  const allWords = await getAllWords();
+  const staticParams = allWords.map((word) => {
+    return {
+      params: {
+        word,
+      },
+    };
+  });
+
+  return staticParams;
+}
+
+const { word } = Astro.params;
+
+// Fetch data
+const wordDetails = await getWordDetails({ word });
+const allWords = await getAllWords();
+
+// Set metadata
+const title = getTitleForWord(wordDetails.word);
+const { definition, sentences } = wordDetails.definitions[0];
+
+let description: string;
+if (!sentences?.[0]?.sentence) {
+  description = `${definition}`;
+} else {
+  description = `${definition}: ${sentences?.[0]?.sentence}`;
+}
+---
+
+<Layout title={title} description={description}>
+  <main>
+    <section class="landing-section">
+      <div class="container wrdPage">
+        <DefListAstro word={word} />
+      </div>
+    </section>
+  </main>
+</Layout>

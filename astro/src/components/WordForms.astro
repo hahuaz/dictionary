@@ -1,0 +1,57 @@
+---
+// src/components/WordForms.astro
+import type { GetWordDetailsResponse } from "../../../shared/types"; // Update path as needed
+
+interface Props {
+  wordDetails: GetWordDetailsResponse;
+}
+
+const { wordDetails } = Astro.props;
+const forms = wordDetails?.forms;
+
+// Logic extracted from the original helper
+const isPluralExists = !!forms?.plural;
+const isDegreesExists = !!(forms?.comparative || forms?.superlative);
+const isConjugationExists = !!(
+  forms?.present_participle ||
+  forms?.past_tense ||
+  forms?.past_participle
+);
+
+const showComponent = isPluralExists || isDegreesExists || isConjugationExists;
+---
+
+{
+  showComponent && (
+    <div class="frms">
+      {isPluralExists && (
+        <p>
+          <span>plural</span> <b>{forms.plural}</b>
+        </p>
+      )}
+
+      {isDegreesExists && (
+        <p>
+          <span>degrees</span>{" "}
+          <b>
+            {forms.comparative}
+            {forms.superlative ? ` - ${forms.superlative}` : ""}
+          </b>
+        </p>
+      )}
+
+      {isConjugationExists && (
+        <p>
+          <span>conjugation</span>{" "}
+          <b>
+            {forms.present_participle}
+            {" - "}
+            {forms.past_tense}
+            {" - "}
+            {forms.past_participle}
+          </b>
+        </p>
+      )}
+    </div>
+  )
+}

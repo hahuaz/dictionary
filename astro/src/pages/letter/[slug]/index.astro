@@ -1,0 +1,60 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { searchBaseWords, SITE_NAME } from "../../../lib";
+import { LETTER_BUCKETS } from "../../../../../shared/types"; // Adjust path as needed
+
+// 1. generateStaticParams -> getStaticPaths
+export async function getStaticPaths() {
+  return LETTER_BUCKETS.map((letter) => {
+    return {
+      params: {
+        slug: letter.toLowerCase(),
+      },
+    };
+  });
+}
+
+// 2. Access params
+const { slug } = Astro.params;
+const currentLetter = slug as string;
+
+// 3. Metadata generation
+const title = `${SITE_NAME} - Practice English`;
+const description = `Words that starts with letter "${currentLetter}".`;
+
+// 4. Data Fetching (Top-level await)
+const baseWords = await searchBaseWords({
+  prefix: currentLetter,
+});
+const words = baseWords;
+---
+
+<Layout title={title} description={description}>
+  <section class="landing-section letter-page">
+    <div class="container">
+      <div class="letters-nav">
+        {
+          LETTER_BUCKETS.map((e) => {
+            const letterSlug = e.toLowerCase();
+            const isActive = letterSlug === currentLetter;
+            return (
+              <span class:list={["letter-item", { active: isActive }]}>
+                <a href={`/letter/${letterSlug}`}>{e.toUpperCase()}</a>
+              </span>
+            );
+          })
+        }
+      </div>
+
+      <div class="words-grid">
+        {
+          words.map((word, i) => (
+            <span class="word">
+              <a href={`/word/${word}`}>{`${i + 1}. ${word}`}</a>
+            </span>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Layout>

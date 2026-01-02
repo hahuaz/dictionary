@@ -1,0 +1,262 @@
+---
+// Search.astro
+import LoadingSpinner from "../LoadingSpinner.astro";
+---
+
+<div id="search-component" class="search-wrapper">
+  <div class="input-wrapper">
+    <div class="input-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="search-icon"
+      >
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+      </svg>
+    </div>
+
+    <input
+      id="search-input"
+      type="text"
+      placeholder="Search"
+      class="input-field"
+      autocomplete="off"
+      enterkeyhint="search"
+      role="combobox"
+      aria-expanded="false"
+      aria-controls="search-listbox"
+      aria-autocomplete="list"
+      maxlength="30"
+    />
+  </div>
+
+  <div
+    id="search-dropdown"
+    class="search-results"
+    role="listbox"
+    aria-label="Search suggestions"
+    style="display: none;"
+  >
+    <div
+      id="search-loading"
+      class="loading-wrapper"
+      style="display: none;"
+      aria-live="polite"
+    >
+      <LoadingSpinner aria-label={"Loading Spinner"} />
+    </div>
+
+    <div id="results-list" class="results-list"></div>
+
+    <div id="no-results" class="no-results" style="display: none;">
+      No results for “<span id="no-results-query"></span>”.
+    </div>
+  </div>
+</div>
+
+<script>
+  import { searchWords } from "../../lib";
+
+  const wrapper = document.getElementById("search-component");
+  const input = document.getElementById("search-input") as HTMLInputElement;
+  const dropdown = document.getElementById("search-dropdown");
+  const loading = document.getElementById("search-loading");
+  const resultsList = document.getElementById("results-list");
+  const noResults = document.getElementById("no-results");
+  const noResultsText = document.getElementById("no-results-query");
+
+  // === STATE ===
+  let activeIndex = -1;
+  let currentResults: string[] = [];
+  let debounceTimer: any = null;
+  let abortController: AbortController | null = null;
+
+  // Cache Logic
+  const cache = new Map<string, string[]>();
+  const MAX_CACHE = 100;
+
+  function setCache(key: string, value: string[]) {
+    if (cache.has(key)) cache.delete(key);
+    cache.set(key, value);
+    if (cache.size > MAX_CACHE) {
+      const firstKey = cache.keys().next().value;
+      if (firstKey) cache.delete(firstKey);
+    }
+  }
+
+  // === DOM UPDATES ===
+
+  function toggleDisplay(element: HTMLElement | null, show: boolean) {
+    if (!element) return;
+    element.style.display = show ? "" : "none"; // Clears inline display to let CSS take over, or sets none
+  }
+
+  function toggleDropdown(show: boolean) {
+    if (show) {
+      toggleDisplay(dropdown, true);
+      input.setAttribute("aria-expanded", "true");
+    } else {
+      toggleDisplay(dropdown, false);
+      input.setAttribute("aria-expanded", "false");
+      activeIndex = -1; // Reset nav on close
+    }
+  }
+
+  function renderResults(words: string[]) {
+    if (!resultsList) return;
+    resultsList.innerHTML = "";
+    currentResults = words;
+
+    if (words.length > 0) {
+      // Hide other states
+      toggleDisplay(loading, false);
+      toggleDisplay(noResults, false);
+
+      words.forEach((word, index) => {
+        const a = document.createElement("a");
+        a.href = `/word/${word}`;
+        a.textContent = word;
+        a.className = "result-item"; // Your CSS class
+        a.setAttribute("role", "option");
+        a.dataset.index = index.toString();
+
+        a.addEventListener("click", () => toggleDropdown(false));
+
+        resultsList.appendChild(a);
+      });
+      toggleDropdown(true);
+    } else {
+      toggleDisplay(loading, false);
+      resultsList.innerHTML = "";
+    }
+  }
+
+  function showNoResults(query: string) {
+    toggleDisplay(loading, false);
+    if (resultsList) resultsList.innerHTML = "";
+    toggleDisplay(noResults, true);
+    if (noResultsText) noResultsText.textContent = query;
+    toggleDropdown(true);
+  }
+
+  function updateActiveItem() {
+    const items = resultsList?.querySelectorAll("a");
+    if (!items) return;
+
+    items.forEach((item, index) => {
+      if (index === activeIndex) {
+        item.classList.add("active"); // Your CSS class
+        item.setAttribute("aria-selected", "true");
+        item.scrollIntoView({ block: "nearest" });
+      } else {
+        item.classList.remove("active");
+        item.setAttribute("aria-selected", "false");
+      }
+    });
+  }
+
+  // === EVENT HANDLERS ===
+
+  // 1. Input Handling (Debounce + Fetch)
+  input?.addEventListener("input", (e) => {
+    const query = (e.target as HTMLInputElement).value.trim().toLowerCase();
+
+    // Reset UI
+    if (!query) {
+      clearTimeout(debounceTimer);
+      toggleDropdown(false);
+      return;
+    }
+
+    // Debounce
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(async () => {
+      // Check Cache
+      if (cache.has(query)) {
+        renderResults(cache.get(query) || []);
+        return;
+      }
+
+      // Show loading
+      toggleDropdown(true);
+      toggleDisplay(loading, true);
+      if (resultsList) resultsList.innerHTML = "";
+      toggleDisplay(noResults, false);
+
+      // Abort previous request
+      if (abortController) abortController.abort();
+      abortController = new AbortController();
+
+      try {
+        const words = await searchWords({
+          prefix: query,
+          includeAuthToken: false,
+          signal: abortController.signal,
+        });
+
+        setCache(query, words);
+
+        if (words.length > 0) {
+          renderResults(words);
+        } else {
+          showNoResults(query);
+        }
+      } catch (err: any) {
+        if (err.name !== "AbortError") {
+          console.error("Search error:", err);
+          toggleDisplay(loading, false);
+        }
+      }
+    }, 600);
+  });
+
+  // 2. Focus Handling
+  input?.addEventListener("focus", () => {
+    if (input.value.trim().length > 0) {
+      toggleDropdown(true);
+    }
+  });
+
+  // 3. Outside Click Handling
+  document.addEventListener("click", (e) => {
+    if (wrapper && !wrapper.contains(e.target as Node)) {
+      toggleDropdown(false);
+    }
+  });
+
+  // 4. Keyboard Navigation
+  input?.addEventListener("keydown", (e) => {
+    if (dropdown?.style.display === "none") return;
+
+    // Allow navigation even if results list is empty but we are in the dropdown context?
+    // Usually only needed if results exist.
+    if (currentResults.length === 0) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      activeIndex = Math.min(activeIndex + 1, currentResults.length - 1);
+      updateActiveItem();
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      activeIndex = Math.max(activeIndex - 1, 0);
+      updateActiveItem();
+    } else if (e.key === "Enter") {
+      if (activeIndex >= 0 && activeIndex < currentResults.length) {
+        e.preventDefault();
+        const selectedWord = currentResults[activeIndex];
+        window.location.href = `/word/${selectedWord}`;
+      }
+    } else if (e.key === "Escape") {
+      toggleDropdown(false);
+      input.blur();
+    }
+  });
+</script>

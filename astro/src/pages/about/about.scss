@@ -1,0 +1,181 @@
+.about {
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1;
+  }
+}
+
+/* Landing Section */
+.landing-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .layout {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 80rem;
+    margin-inline: auto;
+
+    @media (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  align-items: center;
+  @media (min-width: 1024px) {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+
+.description {
+  color: var(--muted-foreground);
+  max-width: 700px;
+  font-size: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--muted-foreground);
+}
+
+/* Illustration */
+.illustration-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: color-mix(in oklab, var(--muted) 80%, transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .icon-main {
+    width: 5rem;
+    height: 5rem;
+    color: color-mix(in oklab, var(--primary) 40%, transparent);
+  }
+
+  .icon-bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--primary) 10%, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: color-mix(in oklab, var(--primary) 60%, transparent);
+    }
+  }
+
+  .bubble-1 {
+    top: -0.5rem;
+    right: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .bubble-2 {
+    bottom: 1rem;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* Desktop (≥ 1024px) */
+  @media (min-width: 1024px) {
+    width: 350px;
+    height: 350px;
+
+    .icon-main {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    .bubble-1 {
+      width: 6rem;
+      height: 6rem;
+      top: -1rem;
+      right: 3rem;
+    }
+
+    .bubble-2 {
+      width: 4rem;
+      height: 4rem;
+      bottom: 2rem;
+    }
+  }
+}
+
+/* Contact Section */
+.contact-section {
+  width: 100%;
+  padding-block: 3rem;
+
+  @media (min-width: 768px) {
+    padding-block: 6rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding-block: 8rem;
+  }
+}
+
+.max-content {
+  max-width: 80rem;
+  margin-inline: auto;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .icon-mail {
+      width: 1.25rem;
+      height: 1.25rem;
+      color: var(--primary);
+    }
+  }
+}

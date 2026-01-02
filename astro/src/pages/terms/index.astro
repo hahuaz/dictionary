@@ -1,0 +1,210 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { SITE_NAME } from "../../lib/constants";
+
+const title = "Terms of Service";
+const description = `Read the Terms of Service for ${SITE_NAME}.`;
+const lastUpdated = new Date().toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+---
+
+<Layout title={title} description={description}>
+  <div class="legal-page">
+    <div class="container">
+      <header class="page-header">
+        <span class="badge">Legal</span>
+        <h1>Terms of Service</h1>
+        <p class="meta">Last updated: {lastUpdated}</p>
+      </header>
+
+      <article class="prose">
+        <p class="lead">
+          Welcome to {SITE_NAME}! By accessing or using our site, you agree to
+          the following terms and conditions. Please read them carefully.
+        </p>
+
+        <section>
+          <h2>1. Acceptance of Terms</h2>
+          <p>
+            By using our website, you agree to comply with and be legally bound
+            by these terms. If you do not agree to these terms, please do not
+            use or access this site.
+          </p>
+        </section>
+
+        <section>
+          <h2>2. User Responsibilities</h2>
+          <p>
+            You agree to use the website only for lawful purposes. You are
+            strictly prohibited from:
+          </p>
+          <ul>
+            <li>
+              Engaging in any harmful activities, including spamming or hacking.
+            </li>
+            <li>
+              Attempting to disrupt or compromise the integrity of our systems.
+            </li>
+            <li>Collecting user data without consent.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. Intellectual Property</h2>
+          <p>
+            All content, features, and functionality on this site (including
+            text, graphics, logos, and audio) are the exclusive property of <strong
+              >{SITE_NAME}</strong
+            > and are protected by international copyright, trademark, and intellectual
+            property laws. Do not use our content without explicit written permission.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. Liability Disclaimer</h2>
+          <p>
+            The information provided on this site is for general informational
+            purposes only. We make no warranties regarding the accuracy or
+            completeness of any content. We are not liable for any direct,
+            indirect, or consequential damages arising from your use of the
+            site.
+          </p>
+        </section>
+
+        <section>
+          <h2>5. Termination</h2>
+          <p>
+            We reserve the right to terminate or suspend your access to the
+            website immediately, without prior notice or liability, for any
+            reason whatsoever, including without limitation if you breach the
+            Terms.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. Changes to Terms</h2>
+          <p>
+            We may modify these terms at any time at our sole discretion. If a
+            revision is material, we will try to provide at least 30 days'
+            notice prior to any new terms taking effect. Continued use of the
+            site constitutes acceptance of the updated terms.
+          </p>
+        </section>
+      </article>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  /* === Layout === */
+  .legal-page {
+    width: 100%;
+    padding: 4rem 1.5rem;
+    background-color: var(--background, #fff); /* Fallback if var not defined */
+    color: var(--foreground, #1a1a1a);
+  }
+
+  .container {
+    max-width: 1024px; /* Optimal reading width */
+    margin: 0 auto;
+  }
+
+  /* === Header === */
+  .page-header {
+    margin-bottom: 3rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border, #e5e5e5);
+    padding-bottom: 2rem;
+  }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: var(--muted-foreground, #737373);
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .meta {
+    font-size: 0.875rem;
+    color: var(--muted-foreground, #737373);
+  }
+
+  /* === Typography / Prose === */
+  .prose {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--foreground, #111);
+    margin-bottom: 2.5rem;
+  }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+    color: var(--foreground, #000);
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: var(--foreground-muted, #333);
+  }
+
+  strong {
+    font-weight: 600;
+    color: var(--foreground, #000);
+  }
+
+  ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 0.5rem;
+  }
+
+  li::marker {
+    color: var(--muted-foreground, #737373);
+  }
+
+  /* === Responsive Adjustments === */
+  @media (max-width: 640px) {
+    .legal-page {
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .lead {
+      font-size: 1.125rem;
+    }
+  }
+</style>

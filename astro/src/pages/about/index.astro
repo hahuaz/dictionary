@@ -1,0 +1,146 @@
+---
+// src/pages/about.astro
+import Layout from "../../layouts/Layout.astro";
+import { SITE_NAME } from "../../lib/constants";
+
+// You can import SCSS directly in the frontmatter
+import "./about.scss";
+
+// Define metadata
+const title = "About Us";
+const description = `Learn more about ${SITE_NAME} and our mission to make language learning accessible.`;
+---
+
+<Layout title={title} description={description}>
+  <div class="about">
+    <main>
+      <section class="landing-section">
+        <div class="container">
+          <div class="layout">
+            <div class="content">
+              <div class="badge-muted">About us</div>
+              <h2 class="title">How it all began</h2>
+              <p class="description">
+                We're on a mission to make language learning more accessible and
+                effective.
+              </p>
+
+              <div class="text-block">
+                <p>
+                  {SITE_NAME} was born from a simple observation: language learners
+                  struggle to understand how words are used in everyday language.
+                </p>
+                <p>
+                  While traditional tools focus on definitions, they often lack
+                  the necessary examples of natural usage.
+                </p>
+                <p>
+                  The site was launched to address this gap, offering real-world
+                  examples and audio pronunciation for deeper learning.
+                </p>
+              </div>
+            </div>
+
+            <div class="illustration-wrapper">
+              <div class="illustration">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon-main"
+                >
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                </svg>
+
+                <div class="icon-bubble bubble-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"
+                    ></polygon>
+                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                  </svg>
+                </div>
+
+                <div class="icon-bubble bubble-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"
+                    ></polygon>
+                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section bg__muted">
+        <div class="container">
+          <div class="max-content">
+            <div class="layout">
+              <div class="content">
+                <div class="badge-muted">Get in Touch</div>
+                <h2 class="title">We'd love to hear from you</h2>
+                <p class="description">
+                  Have questions, feedback, or suggestions? We're always looking
+                  to improve and would love to hear your thoughts.
+                </p>
+
+                <div class="contact-list">
+                  <p class="contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon-mail"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                      ></path>
+                    </svg>
+                    <span>work.hahuaz@gmail.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</Layout>
