@@ -7,6 +7,15 @@ import {
   WordHead,
 } from "../../src/types";
 
+export type {
+  Word,
+  WordDefinition,
+  PartOfSpeech,
+  SentenceHead,
+  SentId,
+  WordHead,
+};
+
 export const LETTER_BUCKETS = [
   "A",
   "B",

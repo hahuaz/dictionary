@@ -7,26 +7,22 @@ console.log("Loading env from", envPath);
 
 dotenv.config({ path: envPath });
 
-// async function run() {
-//   const { script } = await inquirer.prompt([
-//     {
-//       type: "list",
-//       name: "script",
-//       message: "Select a script to run:",
-//       choices: [
-//         { name: "output instagram", value: "word-card" },
-//         { name: "Scan AI for Word Detail", value: "scan-ai-for-word-detail" },
-//       ],
-//     },
-//   ]);
+async function run() {
+  const { script } = await inquirer.prompt([
+    {
+      type: "list",
+      name: "script",
+      message: "Select a script to run:",
+      choices: [
+        { name: "Output Instagram Word Card", value: "gen-word-card" },
+        { name: "Ingest Words (Ngrams/Diff)", value: "ingest-words" },
+        { name: "Scan AI for Word Detail", value: "get-word" },
+        { name: "Antonym Search", value: "antonym" },
+      ],
+    },
+  ]);
 
-//   await import(`./${script}`);
-// }
+  await import(`./${script}`);
+}
 
-// run();
-
-// import("./word-card");
-
-// import("./antonym");
-
-import("./get-forms");
+run().catch(console.error);

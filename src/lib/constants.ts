@@ -7,8 +7,7 @@ export const LOCAL_SAVE_DIR = path.join(
   "local-save"
 );
 
-// D:\assets\dictionary\words
-export const LOCAL_MNT_DICTIONARY = path.join("D:\\assets\\dictionary\\words");
+export const MNT_DICTIONARY_DIR = path.join("D:\\assets\\dictionary");
 
 export const PATH_ALL_SENTENCES = path.join(
   LOCAL_SAVE_DIR,

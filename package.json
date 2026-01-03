@@ -12,7 +12,8 @@
     "cdk:watch": "cdk watch --hotswap --logs --profile ${MY_AWS_PROFILE}",
     "cdk:deploy": "cdk deploy PROD-inSent --profile ${MY_AWS_PROFILE}",
     "dev:admin": "tsx watch src/admin/index.ts",
-    "dev:script": "tsx src/admin/scripts/index.ts"
+    "dev:script": "tsx src/admin/scripts/index.ts",
+    "postinstall": "puppeteer browsers install chrome"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.159",
