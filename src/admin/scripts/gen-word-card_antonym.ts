@@ -1,18 +1,19 @@
 import puppeteer from "puppeteer";
 import path from "path";
 import fs from "fs/promises";
+import { pathToFileURL } from "url";
 import {
-  MNT_DICTIONARY_DIR,
+  ASSET_DICTIONARY_DIR,
+  DESKTOP_DIR,
+  VIEW_DIR,
   speechSynthesis,
   appendJson,
   ensureDir,
 } from "@/lib";
 
-const uiDir = path.join(process.cwd(), "src", "admin", "ui");
-
 async function takeScreenshot() {
   // read the current word from antonym.json
-  const antonymJsonPath = path.join(uiDir, "antonym.json");
+  const antonymJsonPath = path.join(VIEW_DIR, "word-details_antonym.json");
 
   // Using a more standard way to read JSON since it's a dynamic path
   const rawAntonyms = await fs.readFile(antonymJsonPath, "utf-8");
@@ -34,18 +35,32 @@ async function takeScreenshot() {
   });
 
   const page = await browser.newPage();
-  const filePath = `file:${path.join(uiDir, "antonym.html")}`;
+  const filePath = pathToFileURL(
+    path.join(VIEW_DIR, "word-card_antonym.html")
+  ).href;
   await page.goto(filePath, { waitUntil: "networkidle0" });
 
-  await page.evaluate((data) => {
-    const w1 = document.querySelector(".word1");
-    const w2 = document.querySelector(".word2");
-    if (w1) w1.textContent = data.word1;
-    if (w2) w2.textContent = data.word2;
-  }, wordData);
+  const bgImageUrl = pathToFileURL(path.join(DESKTOP_DIR, "1.png")).href;
+
+  await page.evaluate(
+    (data) => {
+      const w1 = document.querySelector(".word1");
+      const w2 = document.querySelector(".word2");
+      const imgEl = document.querySelector(".img") as HTMLElement;
+
+      if (w1) w1.textContent = data.word1;
+      if (w2) w2.textContent = data.word2;
+      if (imgEl) imgEl.style.backgroundImage = `url("${data.bgImageUrl}")`;
+    },
+    { ...wordData, bgImageUrl }
+  );
 
   const wordsMerged = `${word1}-${word2}`;
-  const wordsMergedDir = path.join(MNT_DICTIONARY_DIR, "antonyms", wordsMerged);
+  const wordsMergedDir = path.join(
+    ASSET_DICTIONARY_DIR,
+    "antonyms",
+    wordsMerged
+  );
   await ensureDir(wordsMergedDir);
 
   // Take screenshot
@@ -73,7 +88,7 @@ async function takeScreenshot() {
 
   // append antonym to existing.json
   const existingJsonPath = path.join(
-    MNT_DICTIONARY_DIR,
+    ASSET_DICTIONARY_DIR,
     "antonyms",
     "existing.json"
   );

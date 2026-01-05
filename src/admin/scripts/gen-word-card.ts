@@ -5,14 +5,14 @@ import { pathToFileURL } from "url";
 import ffmpeg from "fluent-ffmpeg";
 
 import {
-  MNT_DICTIONARY_DIR,
+  ASSET_DICTIONARY_DIR,
+  DESKTOP_DIR,
+  VIEW_DIR,
   speechSynthesis,
   ensureDir,
   readJson,
   writeJson,
 } from "@/lib";
-
-const uiDir = path.join(process.cwd(), "src", "admin", "ui");
 
 // --- Helper Functions ---
 
@@ -69,8 +69,8 @@ async function processWordCard() {
   console.log("--- Starting Word Card Generation ---");
   let browser;
   try {
-    // 1. Load word data from ui/word.json
-    const wordJsonPath = path.join(uiDir, "word.json");
+    // 1. Load word data from ui/word-details
+    const wordJsonPath = path.join(VIEW_DIR, "word-details");
     const wordData = await readJson<any>(wordJsonPath);
 
     const { word, definitions, highlights = [] } = wordData;
@@ -87,7 +87,7 @@ async function processWordCard() {
       `<span>$1</span>`
     );
 
-    const wordDir = path.join(MNT_DICTIONARY_DIR, "words", word);
+    const wordDir = path.join(ASSET_DICTIONARY_DIR, "words", word);
     await ensureDir(wordDir);
 
     // 2. Puppeteer Screenshots
@@ -102,26 +102,31 @@ async function processWordCard() {
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
 
-    // Take "image-text" screenshot
+    // Take "word-card" screenshot
     const page = await browser.newPage();
     const imageTextUrl = pathToFileURL(
-      path.join(uiDir, "image-text.html")
+      path.join(VIEW_DIR, "word-card.html")
     ).href;
     await page.goto(imageTextUrl, { waitUntil: "networkidle0" });
+
+    const bgImageUrl = pathToFileURL(path.join(DESKTOP_DIR, "1.png")).href;
 
     await page.evaluate(
       (data) => {
         const wordEl = document.querySelector(".word");
         const defEl = document.querySelector(".definition");
         const sentEl = document.querySelector(".sentence");
+        const imgEl = document.querySelector(".img") as HTMLElement;
+
         if (wordEl) wordEl.textContent = data.word;
         if (defEl) defEl.textContent = data.definition;
         if (sentEl) sentEl.innerHTML = data.sentence;
+        if (imgEl) imgEl.style.backgroundImage = `url("${data.bgImageUrl}")`;
       },
-      { word, definition, sentence: highlightedSentence }
+      { word, definition, sentence: highlightedSentence, bgImageUrl }
     );
 
-    const screenshotPath = path.join(wordDir, `${word}-${pos}-image-text.png`);
+    const screenshotPath = path.join(wordDir, `${word}-${pos}-word-card.png`);
     await page.screenshot({ path: screenshotPath, fullPage: true });
     console.log(`✅ Screenshot saved: ${path.basename(screenshotPath)}`);
 
@@ -170,7 +175,7 @@ async function processWordCard() {
 
     // 5. Update existing.json
     const existingJsonPath = path.join(
-      MNT_DICTIONARY_DIR,
+      ASSET_DICTIONARY_DIR,
       "words",
       "existing.json"
     );
@@ -185,7 +190,7 @@ async function processWordCard() {
     }
 
     // 6. Copy Reference Images
-    const srcImagePath = path.join(uiDir, "1.png");
+    const srcImagePath = path.join(DESKTOP_DIR, "1.png");
     try {
       await fs.access(srcImagePath);
       await fs.copyFile(
@@ -193,7 +198,7 @@ async function processWordCard() {
         path.join(wordDir, `${word}-reference.png`)
       );
 
-      const dictImagesDir = path.join(MNT_DICTIONARY_DIR, "images");
+      const dictImagesDir = path.join(ASSET_DICTIONARY_DIR, "images");
       await ensureDir(dictImagesDir);
       const dictImagePath = path.join(
         dictImagesDir,
@@ -202,7 +207,9 @@ async function processWordCard() {
       await fs.copyFile(srcImagePath, dictImagePath);
       console.log("✅ Reference images copied.");
     } catch (err) {
-      console.warn("⚠️ Reference image ui/1.png not found, skipping copy.");
+      console.warn(
+        "⚠️ Reference image not found on Desktop/1.png, skipping copy."
+      );
     }
 
     console.log(`--- Finished processing word: ${word} ---`);

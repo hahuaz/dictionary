@@ -14,10 +14,10 @@ async function run() {
       name: "script",
       message: "Select a script to run:",
       choices: [
-        { name: "Output Instagram Word Card", value: "gen-word-card" },
+        { name: "Generate Word Card", value: "gen-word-card" },
+        { name: "Generate Antonym Card", value: "gen-word-card_antonym" },
         { name: "Ingest Words (Ngrams/Diff)", value: "ingest-words" },
         { name: "Scan AI for Word Detail", value: "get-word" },
-        { name: "Antonym Search", value: "antonym" },
       ],
     },
   ]);

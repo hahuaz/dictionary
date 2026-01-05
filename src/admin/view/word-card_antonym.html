@@ -57,11 +57,11 @@
         height: 100vh;
         background-size: cover;
         background-position: center;
-        padding: 3rem 2rem;
+        padding: 1.5rem 2rem;
 
         font-family: "Baloo", sans-serif;
 
-        color: #3d4a53;
+        color: #323232;
 
         display: flex;
         flex-direction: column;
@@ -71,11 +71,12 @@
         /* horizontal alignment for children elements */
 
         .word {
-          font-size: 8rem;
+          font-size: 7rem;
           letter-spacing: -0.25rem;
           line-height: 0.7;
           font-weight: 600;
-          color: #2b7fff;
+          padding: 1.5rem 0.9rem;
+          border-radius: 2rem;
         }
         .definition {
           font-size: 4rem;
@@ -85,59 +86,34 @@
         }
         .img {
           width: 100%;
-          height: 30rem;
-          background-image: url("./1.png");
+          height: 50rem;
+          background-image: none; /* Set dynamically from script */
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat;
           margin-top: 1rem;
         }
-        .sentence-container {
-          /* flex-grow: 1; */
-          /* align horizontal */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .sentence {
-          font-size: 4.5rem;
-          letter-spacing: -0.15rem;
-          line-height: 4.5rem;
-          margin-bottom: 20px;
-          /* word-spacing: -0.15rem; */
-          text-align: center;
-          font-family: "customarial", sans-serif;
 
-          span {
-            display: inline-block;
-            /* background-color: #ff53d9; */
-            background-color: #ff53da45;
-
-            border-radius: 1rem;
-            padding: 0.5rem 0.7rem;
-            /* line-height: 5rem; */
-          }
-        }
         .mark {
           color: #767676;
           font-size: 2.5rem;
           letter-spacing: 0.1rem;
+        }
+
+        .word1 {
+          background-color: #fffb008e;
+        }
+        .word2 {
+          background-color: #ff000046;
         }
       }
     </style>
   </head>
   <body>
     <div id="container" class="container">
-      <p class="word">document</p>
-      <p class="definition">
-        a piece of written or electronic file that provides information
-      </p>
+      <p class="word word1">document</p>
       <div class="img"></div>
-      <div class="sentence-container">
-        <p class="sentence">
-          Hard work is the key to the <span>success</span> of any goal.
-        </p>
-      </div>
+      <p class="word word2">document</p>
       <p class="mark">english.aliving.app</p>
     </div>
   </body>
