@@ -15,8 +15,6 @@ export async function ensureDir(path: string) {
 /**
  * Safely reads a JSON file and returns data or default value.
  */
-export async function readJson<T>(path: string, defaultValue: T): Promise<T>;
-export async function readJson<T>(path: string): Promise<T>;
 export async function readJson<T>(path: string, defaultValue?: T): Promise<T> {
   try {
     const content = await fs.readFile(path, "utf-8");
@@ -57,7 +55,7 @@ export async function appendJson<T>(path: string, item: T) {
 export async function createDifferenceFile(
   pathExisting: string,
   pathCandidate: string,
-  pathOutput: string
+  pathOutput: string,
 ) {
   console.log("--- Creating Difference File ---");
   try {
@@ -68,7 +66,7 @@ export async function createDifferenceFile(
 
     const existingSet = new Set(existingWords.map((w) => w.toLowerCase()));
     const differenceWords = candidateWords.filter(
-      (word) => !existingSet.has(word.toLowerCase())
+      (word) => !existingSet.has(word.toLowerCase()),
     );
 
     await writeJson(pathOutput, differenceWords);
