@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -51,6 +51,17 @@
         font-size: 16px;
       }
 
+      @keyframes write {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 100%;
+          /* filter gives a glow effect */
+          filter: drop-shadow(0 0 50px #00ade1);
+        }
+      }
+
       .container {
         position: relative;
         width: 100%;
@@ -71,12 +82,32 @@
         /* horizontal alignment for children elements */
 
         .word {
-          font-size: 8rem;
+          position: relative;
+          display: inline-block;
+          text-decoration: none;
+          line-height: 1em;
+          color: transparent;
+          -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+          font-size: 7rem;
           letter-spacing: -0.25rem;
-          line-height: 0.7;
           font-weight: 600;
-          color: #2b7fff;
         }
+
+        .word::before {
+          content: attr(data-text);
+          position: absolute;
+          color: #00ade1;
+          width: 0;
+          overflow: hidden;
+          border-right: 8px solid #00ade1;
+          -webkit-text-stroke: 1px #00ade1;
+          transition: 1s;
+        }
+
+        .word.animate::before {
+          animation: write 2s ease-out forwards;
+        }
+
         .definition {
           font-size: 4rem;
           letter-spacing: -0.2rem;
@@ -128,7 +159,11 @@
   </head>
   <body>
     <div id="container" class="container">
-      <p class="word">document</p>
+      <div>
+        <span class="word" data-text="&nbsp;document"
+          >&nbsp;document&nbsp;</span
+        >
+      </div>
       <p class="definition">
         a piece of written or electronic file that provides information
       </p>

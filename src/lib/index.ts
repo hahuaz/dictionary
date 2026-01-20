@@ -4,4 +4,4 @@ export * from "./utils";
 export * from "./constants";
 export * from "./sort";
 export * from "./ai";
-export * from "./fs-utils";
+export * from "./fs";

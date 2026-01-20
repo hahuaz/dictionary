@@ -1,5 +1,4 @@
 import fs from "fs/promises";
-import * as fsSync from "fs";
 import { dirname } from "path";
 
 /**
